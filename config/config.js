@@ -4,5 +4,5 @@ window.__APP_CONFIG__ = {
   API_LATENCY_MS: 350,                // délai artificiel des appels simulés
   PERSIST_LOCAL: true,                // sauvegarde dans le navigateur
   APP_VERSION: "maquette-2x2",
-  SHOW_NEED_PANEL_DEFAULT: true       // panneau « Besoin métier » ouvert par défaut
+  SHOW_NEED_PANEL_DEFAULT: false       // panneau « Besoin métier » fermé par défaut au lancement
 };

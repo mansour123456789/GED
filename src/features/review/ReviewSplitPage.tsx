@@ -175,7 +175,7 @@ Visa officiel délivré sous autorité conjointe DGPC / SCET-Tunisie / Banque Mo
 
   return (
     <div className="flex gap-4">
-      <div className="flex-1 min-w-0 flex flex-col h-[calc(100vh-8rem)]">
+      <div className="flex-1 min-w-0 flex flex-col min-h-0 lg:h-[calc(100vh-8rem)]">
         {/* En-tête compact du poste de revue */}
         <div className="flex items-center justify-between gap-3 p-3 bg-card rounded-t-xl border border-border border-b-0">
           <div className="flex items-center gap-2 min-w-0">
@@ -188,7 +188,7 @@ Visa officiel délivré sous autorité conjointe DGPC / SCET-Tunisie / Banque Mo
               <ArrowLeft className="h-4 w-4" />
             </Button>
             <div className="min-w-0">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-wrap">
                 <DocCode code={doc.code} />
                 <RevisionTag revision={doc.currentRevision} />
                 <StatusBadge state={doc.state} />
@@ -213,14 +213,14 @@ Visa officiel délivré sous autorité conjointe DGPC / SCET-Tunisie / Banque Mo
         </div>
 
         {/* Écran partagé : Gauche PDF / Droite Fil de discussion CRD */}
-        <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 border border-border overflow-hidden bg-background">
+        <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 border border-border lg:overflow-hidden bg-background">
           {/* Côté Gauche : Aperçu Technique Réel (7 colonnes) */}
-          <div className="lg:col-span-7 bg-slate-900 overflow-hidden relative border-b lg:border-b-0 lg:border-r border-border h-[480px] lg:h-auto">
+          <div className="lg:col-span-7 bg-slate-900 overflow-hidden relative border-b lg:border-b-0 lg:border-r border-border h-[360px] sm:h-[480px] lg:h-auto">
             <DocumentViewer document={doc} className="h-full border-0 rounded-none" />
           </div>
 
           {/* Côté Droit : Registre des commentaires CRD & Saisie (5 colonnes) */}
-          <div className="lg:col-span-5 bg-card flex flex-col h-full overflow-hidden">
+          <div className="lg:col-span-5 bg-card flex flex-col min-h-[400px] lg:h-full lg:overflow-hidden">
             <div className="p-3 border-b border-border bg-muted/30 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <MessageSquare className="h-4 w-4 text-primary" />

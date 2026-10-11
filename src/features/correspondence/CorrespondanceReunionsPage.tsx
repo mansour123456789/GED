@@ -272,22 +272,22 @@ export const CorrespondanceReunionsPage: React.FC = () => {
 
         {/* Système d'onglets pour les 4 volets de la Section 23 */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-4 w-full bg-muted/50 p-1 rounded-lg border border-border">
-            <TabsTrigger value="reunions" className="text-xs font-semibold gap-1.5">
-              <Users className="h-3.5 w-3.5" />
-              PV de Réunions & Décisions ({meetings.length})
+          <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full bg-muted/50 p-1 rounded-lg border border-border h-auto gap-1">
+            <TabsTrigger value="reunions" className="text-xs font-semibold gap-1.5 py-2">
+              <Users className="h-3.5 w-3.5 shrink-0" />
+              <span>PV Réunions ({meetings.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="observations" className="text-xs font-semibold gap-1.5">
-              <AlertTriangle className="h-3.5 w-3.5 text-amber-500" />
-              Notes d'Observations NO ({observationNotes.length})
+            <TabsTrigger value="observations" className="text-xs font-semibold gap-1.5 py-2">
+              <AlertTriangle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+              <span>Notes NO ({observationNotes.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="courriers" className="text-xs font-semibold gap-1.5">
-              <Mail className="h-3.5 w-3.5 text-blue-500" />
-              Courrier Entrant / Sortant ({correspondence.length})
+            <TabsTrigger value="courriers" className="text-xs font-semibold gap-1.5 py-2">
+              <Mail className="h-3.5 w-3.5 text-blue-500 shrink-0" />
+              <span>Courriers ({correspondence.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="rapport" className="text-xs font-semibold gap-1.5">
-              <BarChart3 className="h-3.5 w-3.5 text-emerald-500" />
-              Rapport Mensuel 12-Points (v2.1)
+            <TabsTrigger value="rapport" className="text-xs font-semibold gap-1.5 py-2">
+              <BarChart3 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+              <span>Rapport 12-Points</span>
             </TabsTrigger>
           </TabsList>
 

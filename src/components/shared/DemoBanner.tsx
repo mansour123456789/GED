@@ -23,21 +23,21 @@ export const DemoBanner: React.FC = () => {
   const timeFormatted = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 
   return (
-    <footer className="demo-banner border-t border-border bg-card/95 backdrop-blur-xs py-2 px-4 text-xs text-muted-foreground flex flex-wrap items-center justify-between gap-3 sticky bottom-0 z-40 shadow-xs">
+    <footer className="demo-banner border-t border-border bg-card/95 backdrop-blur-xs py-1.5 px-3 sm:px-4 text-[11px] sm:text-xs text-muted-foreground flex flex-wrap items-center justify-between gap-2 sticky bottom-0 z-40 shadow-xs">
       <div className="flex items-center gap-2 flex-wrap">
-        <span className="inline-flex items-center gap-1 font-bold text-primary bg-primary/10 px-2 py-0.5 rounded text-[11px]">
+        <span className="inline-flex items-center gap-1 font-bold text-primary bg-primary/10 px-1.5 sm:px-2 py-0.5 rounded text-[10px] sm:text-[11px]">
           <Sparkles className="h-3 w-3" />
-          MAQUETTE STATIQUE V2
+          <span className="hidden xs:inline">MAQUETTE </span>V2
         </span>
         <span className="hidden sm:inline text-muted-foreground/60">•</span>
-        <span className="flex items-center gap-1 text-[11px]">
-          <Calendar className="h-3 w-3" />
-          Date simulée : <strong className="text-foreground">{clock.formatDemoDate()}</strong>
+        <span className="flex items-center gap-1 text-[10px] sm:text-[11px]">
+          <Calendar className="h-3 w-3 text-muted-foreground" />
+          <span className="hidden xs:inline">Date simulée : </span><strong className="text-foreground">{clock.formatDemoDate()}</strong>
         </span>
-        <span className="hidden sm:inline text-muted-foreground/60">•</span>
-        <span className="flex items-center gap-1 text-[11px]">
+        <span className="hidden md:inline text-muted-foreground/60">•</span>
+        <span className="hidden sm:flex items-center gap-1 text-[10px] sm:text-[11px]">
           <Bell className="h-3 w-3 text-amber-500" />
-          Prochaine alerte démo dans : <span className="font-mono font-semibold text-foreground">{timeFormatted}</span>
+          Alerte dans : <span className="font-mono font-semibold text-foreground">{timeFormatted}</span>
         </span>
       </div>
 

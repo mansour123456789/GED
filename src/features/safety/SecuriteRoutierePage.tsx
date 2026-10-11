@@ -339,21 +339,21 @@ export const SecuriteRoutierePage: React.FC = () => {
 
         {/* Onglets principaux */}
         <Tabs value={activeTab} onValueChange={(v: any) => setActiveTab(v)} className="w-full">
-          <TabsList className="grid grid-cols-4 max-w-2xl mb-4">
-            <TabsTrigger value="audits" className="gap-1.5 font-bold text-xs">
-              <ShieldCheck className="h-4 w-4" />
+          <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full sm:max-w-2xl mb-4 h-auto gap-1 p-1 bg-muted/60">
+            <TabsTrigger value="audits" className="gap-1.5 font-bold text-xs py-2">
+              <ShieldCheck className="h-4 w-4 shrink-0" />
               <span>Audits ASR ({audits.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="deviations" className="gap-1.5 font-bold text-xs">
-              <Truck className="h-4 w-4" />
+            <TabsTrigger value="deviations" className="gap-1.5 font-bold text-xs py-2">
+              <Truck className="h-4 w-4 shrink-0" />
               <span>Déviations ({diversions.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="inspections" className="gap-1.5 font-bold text-xs">
-              <MapPin className="h-4 w-4" />
+            <TabsTrigger value="inspections" className="gap-1.5 font-bold text-xs py-2">
+              <MapPin className="h-4 w-4 shrink-0" />
               <span>Inspections ({inspections.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="normes" className="gap-1.5 font-bold text-xs">
-              <FileText className="h-4 w-4" />
+            <TabsTrigger value="normes" className="gap-1.5 font-bold text-xs py-2">
+              <FileText className="h-4 w-4 shrink-0" />
               <span>Normes & CCTP</span>
             </TabsTrigger>
           </TabsList>

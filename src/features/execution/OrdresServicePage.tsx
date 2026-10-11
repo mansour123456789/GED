@@ -180,7 +180,7 @@ export const OrdresServicePage: React.FC = () => {
         />
 
         {/* --- KPI COCKPIT OS & SUSPENSIONS --- */}
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Card className="border-l-4 border-l-primary shadow-xs">
             <CardContent className="p-4 flex items-center justify-between">
               <div>

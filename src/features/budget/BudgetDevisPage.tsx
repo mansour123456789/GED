@@ -150,18 +150,18 @@ export const BudgetDevisPage: React.FC = () => {
 
         {/* Système d'onglets pour le chiffrage et l'exploitation */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-3 w-full bg-muted/50 p-1 rounded-lg border border-border">
-            <TabsTrigger value="chiffrageV1" className="text-xs font-semibold gap-1.5">
-              <Coins className="h-3.5 w-3.5" />
-              Chiffrage Détaillé V1 (Section 18.3)
+          <TabsList className="grid grid-cols-1 sm:grid-cols-3 w-full bg-muted/50 p-1 rounded-lg border border-border h-auto gap-1">
+            <TabsTrigger value="chiffrageV1" className="text-xs font-semibold gap-1.5 py-2">
+              <Coins className="h-3.5 w-3.5 shrink-0" />
+              <span>Chiffrage Détaillé (140 j/h)</span>
             </TabsTrigger>
-            <TabsTrigger value="scenarios" className="text-xs font-semibold gap-1.5">
-              <Layers className="h-3.5 w-3.5" />
-              Scénarios & Périmètres (Prototype vs Socle)
+            <TabsTrigger value="scenarios" className="text-xs font-semibold gap-1.5 py-2">
+              <Layers className="h-3.5 w-3.5 shrink-0" />
+              <span>Scénarios & Périmètres</span>
             </TabsTrigger>
-            <TabsTrigger value="modeleCommercial" className="text-xs font-semibold gap-1.5">
-              <TrendingUp className="h-3.5 w-3.5" />
-              Modèle Commercial & Cloud Azure
+            <TabsTrigger value="modeleCommercial" className="text-xs font-semibold gap-1.5 py-2">
+              <TrendingUp className="h-3.5 w-3.5 shrink-0" />
+              <span>Modèle Commercial & Cloud</span>
             </TabsTrigger>
           </TabsList>
 
@@ -169,7 +169,7 @@ export const BudgetDevisPage: React.FC = () => {
           <TabsContent value="chiffrageV1" className="space-y-4 pt-3">
             <Card className="border border-border shadow-xs bg-card">
               <CardHeader className="p-4 border-b border-border bg-muted/20">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <div>
                     <CardTitle className="text-sm font-bold">
                       Décomposition par Poste de Travail - V1 Initiale
@@ -178,13 +178,14 @@ export const BudgetDevisPage: React.FC = () => {
                       Charge en jours-personnes cumulée basée sur un barème journalier de négociation (400 à 800 DT/j HT)
                     </CardDescription>
                   </div>
-                  <Badge variant="outline" className="font-mono text-xs">
+                  <Badge variant="outline" className="font-mono text-xs w-fit">
                     Base Octobre 2026
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent className="p-0">
-                <table className="w-full text-xs text-left">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-xs text-left min-w-[550px]">
                   <thead className="bg-muted/40 text-muted-foreground font-semibold border-b border-border">
                     <tr>
                       <th className="py-2.5 px-3">Poste & Descriptif</th>
@@ -243,7 +244,8 @@ export const BudgetDevisPage: React.FC = () => {
                     </tr>
                   </tfoot>
                 </table>
-              </CardContent>
+              </div>
+            </CardContent>
             </Card>
 
             {/* Jalons de développement S1 à S20 */}

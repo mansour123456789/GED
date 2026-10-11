@@ -416,12 +416,12 @@ export const ReportDetailPage: React.FC = () => {
 
         {/* Synthèse Exécutive du Rapport */}
         <Card className="border border-border bg-card shadow-xs">
-          <CardHeader className="p-4 pb-2 border-b border-border bg-muted/20 flex flex-row items-center justify-between">
+          <CardHeader className="p-4 pb-2 border-b border-border bg-muted/20 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div className="flex items-center gap-2">
-              <FileText className="h-4 w-4 text-primary" />
+              <FileText className="h-4 w-4 text-primary shrink-0" />
               <CardTitle className="text-sm font-bold">Synthèse Exécutive & Constats de la Période</CardTitle>
             </div>
-            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground">
+            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground flex-wrap">
               <span>Date de coupure : 30/09/2026</span>
               <span>•</span>
               <span className="font-bold text-foreground">Sceau SHA256: 9f8a32b1...</span>
@@ -431,11 +431,11 @@ export const ReportDetailPage: React.FC = () => {
             <p className="text-foreground leading-relaxed text-xs">
               {report.executiveSummary}
             </p>
-            <div className="p-2.5 rounded bg-muted/40 border border-border/80 flex items-center justify-between text-[11px] text-muted-foreground">
+            <div className="p-2.5 rounded bg-muted/40 border border-border/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px] text-muted-foreground">
               <span>
                 Rédigé par <strong className="text-foreground">{report.generatedBy}</strong> • Contrôle contradictoire SCET-Tunisie & Soroubat
               </span>
-              <Badge variant="outline" className="font-mono text-[10px] bg-background">
+              <Badge variant="outline" className="font-mono text-[10px] bg-background w-fit">
                 Conforme Directives DGPC & Bailleurs 2026
               </Badge>
             </div>
@@ -444,18 +444,18 @@ export const ReportDetailPage: React.FC = () => {
 
         {/* Navigation par Onglets : (1) Avancement Physique par Lot, (2) Tous les Fichiers, (3) État de Validation des Documents */}
         <Tabs value={activeTab} onValueChange={(val: any) => setActiveTab(val)} className="w-full">
-          <TabsList className="grid grid-cols-3 w-full bg-muted/50 p-1 rounded-lg border border-border">
-            <TabsTrigger value="avancementLots" className="text-xs font-semibold gap-1.5">
-              <HardHat className="h-3.5 w-3.5 text-amber-500" />
-              Avancement Physique par Lot (L01, L02, L03)
+          <TabsList className="grid grid-cols-1 sm:grid-cols-3 w-full bg-muted/50 p-1 rounded-lg border border-border h-auto gap-1">
+            <TabsTrigger value="avancementLots" className="text-xs font-semibold gap-1.5 py-2">
+              <HardHat className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+              <span>Avancement Physique Lots</span>
             </TabsTrigger>
-            <TabsTrigger value="fichiers" className="text-xs font-semibold gap-1.5">
-              <Paperclip className="h-3.5 w-3.5 text-blue-500" />
-              Tous les Fichiers & Pièces Jointes ({attachedFiles.length})
+            <TabsTrigger value="fichiers" className="text-xs font-semibold gap-1.5 py-2">
+              <Paperclip className="h-3.5 w-3.5 text-blue-500 shrink-0" />
+              <span>Fichiers & Pièces Jointes ({attachedFiles.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="validationDocs" className="text-xs font-semibold gap-1.5">
-              <FileCheck2 className="h-3.5 w-3.5 text-emerald-500" />
-              État de Validation des Documents & Visas
+            <TabsTrigger value="validationDocs" className="text-xs font-semibold gap-1.5 py-2">
+              <FileCheck2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+              <span>Validation Documents & Visas</span>
             </TabsTrigger>
           </TabsList>
 

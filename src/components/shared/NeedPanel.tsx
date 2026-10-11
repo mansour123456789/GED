@@ -48,10 +48,20 @@ export const NeedPanel: React.FC<NeedPanelProps> = ({
   donorRequirement,
   defaultOpen,
 }) => {
-  const config = (window as any).__APP_CONFIG__ || {};
-  const isDefaultOpen = defaultOpen !== undefined ? defaultOpen : config.SHOW_NEED_PANEL_DEFAULT !== false;
-  const [isOpen, setIsOpen] = useState(isDefaultOpen);
+  // Par défaut au lancement : TOUJOURS FERMÉ (l'utilisateur peut l'ouvrir en cliquant sur le bouton flottant ou avec la touche '?')
+  const [isOpen, setIsOpen] = useState(defaultOpen ?? false);
   const { startGuide } = useGuide();
+
+  // Écouter le redimensionnement de l'écran
+  useEffect(() => {
+    const handleResize = () => {
+      if (defaultOpen === undefined && window.innerWidth < 1280 && isOpen) {
+        // Optionnel : ne pas forcer la fermeture si l'utilisateur l'a ouvert
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [defaultOpen, isOpen]);
 
   // Raccourci clavier '?' pour ouvrir/fermer le panneau
   useEffect(() => {
@@ -77,7 +87,7 @@ export const NeedPanel: React.FC<NeedPanelProps> = ({
         <button
           type="button"
           onClick={() => setIsOpen(true)}
-          className="fixed right-0 top-24 z-40 bg-primary text-primary-foreground py-2 px-2.5 rounded-l-lg shadow-lg flex items-center gap-1.5 hover:bg-primary/90 transition-all text-xs font-semibold"
+          className="fixed right-0 top-20 sm:top-24 z-30 bg-primary text-primary-foreground py-2 px-2.5 rounded-l-lg shadow-lg flex items-center gap-1.5 hover:bg-primary/90 transition-all text-xs font-semibold cursor-pointer"
           title="Ouvrir le panneau Besoin Métier (Touche ?)"
         >
           <HelpCircle className="h-4 w-4" />
@@ -85,11 +95,22 @@ export const NeedPanel: React.FC<NeedPanelProps> = ({
         </button>
       )}
 
-      {/* Volet latéral Besoin Métier */}
+      {/* Backdrop sur mobile et tablette (< xl) */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-xs xl:hidden animate-fade-in"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+
+      {/* Volet latéral Besoin Métier : Drawer responsive sur mobile/tablette, Sticky sur desktop */}
       {isOpen && (
         <aside
           className={cn(
-            "w-80 md:w-88 shrink-0 bg-card border-l border-border h-[calc(100vh-4rem)] sticky top-16 overflow-y-auto p-4 flex flex-col gap-4 text-xs shadow-md transition-all duration-300 z-30"
+            // Mode Drawer sur Mobile / Tablette (< xl)
+            "fixed inset-y-0 right-0 z-50 w-full sm:max-w-md bg-card border-l border-border p-4 flex flex-col gap-4 text-xs shadow-2xl overflow-y-auto",
+            // Mode Colonne sur Grand Écran (>= xl)
+            "xl:relative xl:top-0 xl:inset-y-auto xl:right-auto xl:z-20 xl:w-80 xl:md:w-88 xl:shrink-0 xl:h-[calc(100vh-4rem)] xl:sticky xl:top-16 xl:shadow-none"
           )}
         >
           <div className="flex items-center justify-between border-b border-border pb-3">
@@ -99,13 +120,14 @@ export const NeedPanel: React.FC<NeedPanelProps> = ({
               </span>
               <div>
                 <h3 className="font-bold text-foreground text-sm">Besoin Métier</h3>
-                <p className="text-[11px] text-muted-foreground truncate max-w-[180px]">{displayTitle}</p>
+                <p className="text-[11px] text-muted-foreground truncate max-w-[180px] sm:max-w-[220px]">{displayTitle}</p>
               </div>
             </div>
             <Button
               variant="ghost"
               size="icon-sm"
               onClick={() => setIsOpen(false)}
+              className="text-muted-foreground hover:text-foreground"
               title="Fermer le panneau (Touche ?)"
             >
               <ChevronRight className="h-4 w-4" />

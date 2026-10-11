@@ -4,5 +4,5 @@ window.__APP_CONFIG__ = {
   API_LATENCY_MS: 350,
   PERSIST_LOCAL: true,
   APP_VERSION: "maquette-2x2",
-  SHOW_NEED_PANEL_DEFAULT: true
+  SHOW_NEED_PANEL_DEFAULT: false
 };

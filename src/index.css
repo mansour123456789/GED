@@ -159,11 +159,13 @@
 
   html {
     @apply bg-background;
+    overflow-x: clip;
   }
 
   body {
     @apply min-h-dvh bg-background text-foreground antialiased;
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: clip;
   }
 
   #root {

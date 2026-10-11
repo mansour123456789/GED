@@ -400,7 +400,7 @@ export const CarteChantierOsmPage: React.FC = () => {
 
         {/* Tableau / Registre des Événements Cartographiques */}
         <Card className="border border-border shadow-xs bg-card">
-          <CardHeader className="p-4 border-b border-border flex flex-row items-center justify-between">
+          <CardHeader className="p-4 border-b border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <CardTitle className="text-sm font-bold">
                 Registre des Éléments Géolocalisés le long de la RN13
@@ -410,14 +410,14 @@ export const CarteChantierOsmPage: React.FC = () => {
               </CardDescription>
             </div>
 
-            <div className="flex items-center gap-2">
-              <div className="relative">
+            <div className="flex items-center gap-2 w-full sm:w-auto">
+              <div className="relative w-full sm:w-64">
                 <Search className="h-3.5 w-3.5 absolute left-2.5 top-2.5 text-muted-foreground" />
                 <Input
                   placeholder="Rechercher par PK, titre, description..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-8 text-xs h-8 w-64 bg-background"
+                  className="pl-8 text-xs h-8 w-full bg-background"
                 />
               </div>
             </div>

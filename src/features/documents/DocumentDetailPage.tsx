@@ -218,22 +218,22 @@ export const DocumentDetailPage: React.FC = () => {
 
         {/* Onglets : Aperçu, Révisions, Commentaires CRD, Audit */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid grid-cols-4 max-w-xl mb-4">
-            <TabsTrigger value="preview" className="gap-1.5 font-bold text-xs">
-              <FileText className="h-3.5 w-3.5" />
-              <span>Aperçu Document</span>
+          <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full sm:max-w-xl mb-4 h-auto gap-1 p-1 bg-muted/60">
+            <TabsTrigger value="preview" className="gap-1.5 font-bold text-xs py-2">
+              <FileText className="h-3.5 w-3.5 shrink-0" />
+              <span>Aperçu</span>
             </TabsTrigger>
-            <TabsTrigger value="revisions" className="gap-1.5 font-bold text-xs">
-              <GitCommit className="h-3.5 w-3.5" />
+            <TabsTrigger value="revisions" className="gap-1.5 font-bold text-xs py-2">
+              <GitCommit className="h-3.5 w-3.5 shrink-0" />
               <span>Révisions ({doc.revisions.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="comments" className="gap-1.5 font-bold text-xs">
-              <MessageSquare className="h-3.5 w-3.5" />
-              <span>Commentaires CRD ({docComments.length})</span>
+            <TabsTrigger value="comments" className="gap-1.5 font-bold text-xs py-2">
+              <MessageSquare className="h-3.5 w-3.5 shrink-0" />
+              <span>Commentaires ({docComments.length})</span>
             </TabsTrigger>
-            <TabsTrigger value="audit" className="gap-1.5 font-bold text-xs">
-              <Lock className="h-3.5 w-3.5" />
-              <span>Scellement & SHA</span>
+            <TabsTrigger value="audit" className="gap-1.5 font-bold text-xs py-2">
+              <Lock className="h-3.5 w-3.5 shrink-0" />
+              <span>SHA & Audit</span>
             </TabsTrigger>
           </TabsList>
 

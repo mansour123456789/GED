@@ -507,7 +507,7 @@ Visa officiel délivré sous autorité conjointe DGPC / SCET-Tunisie / Banque Mo
             />
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <select
               value={stateFilter}
               onChange={(e) => setStateFilter(e.target.value)}

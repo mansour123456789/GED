@@ -238,7 +238,7 @@ export const ReportsPage: React.FC = () => {
               placeholder="Rechercher par référence, titre, mois..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-64 h-8 text-xs"
+              className="w-full sm:w-64 h-8 text-xs"
             />
             <select
               value={selectedLot}

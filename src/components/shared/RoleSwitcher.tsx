@@ -42,27 +42,27 @@ export const RoleSwitcher: React.FC = () => {
         <Button
           variant="outline"
           size="sm"
-          className="h-8 gap-2 px-2.5 bg-card/90 border-border hover:bg-muted text-xs font-semibold shadow-2xs"
+          className="h-8 gap-1.5 sm:gap-2 px-2 sm:px-2.5 bg-card/90 border-border hover:bg-muted text-xs font-semibold shadow-xs"
           title="Changer de rôle de démonstration instantanément"
         >
           <span className="text-muted-foreground hidden lg:inline">Voir en tant que :</span>
           <span
             className={cn(
-              "h-5 w-5 rounded-full font-bold flex items-center justify-center text-[10px] select-none",
+              "h-5 w-5 rounded-full font-bold flex items-center justify-center text-[10px] select-none shrink-0",
               currentActorStyle.bg,
               currentActorStyle.text
             )}
           >
             {currentUser.actorLetter}
           </span>
-          <span className="font-semibold text-foreground truncate max-w-[120px] sm:max-w-[150px]">
+          <span className="font-semibold text-foreground truncate max-w-[65px] xs:max-w-[100px] sm:max-w-[150px]">
             {currentUser.fullName}
           </span>
-          <ChevronDown className="h-3 w-3 opacity-60" />
+          <ChevronDown className="h-3 w-3 opacity-60 shrink-0" />
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent align="end" className="w-80 max-h-[85vh] overflow-y-auto p-1.5 shadow-xl">
+      <DropdownMenuContent align="end" className="w-[calc(100vw-2rem)] sm:w-80 max-h-[85vh] overflow-y-auto p-1.5 shadow-xl">
         <DropdownMenuLabel className="text-xs font-bold text-foreground flex items-center justify-between pb-1">
           <span>Sélecteur de rôle (14 comptes démo)</span>
           <span className="text-[10px] text-muted-foreground">Mode Démo actif</span>

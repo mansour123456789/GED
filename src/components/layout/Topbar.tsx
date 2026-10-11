@@ -78,17 +78,17 @@ export const Topbar: React.FC<TopbarProps> = ({ onToggleSidebar, selectedLot, on
 
         {/* Sélecteur de lot global */}
         <div className="flex items-center gap-2">
-          <span className="text-xs font-semibold text-muted-foreground hidden sm:inline">Périmètre :</span>
+          <span className="text-xs font-semibold text-muted-foreground hidden md:inline">Périmètre :</span>
           <select
             value={selectedLot}
             onChange={(e) => onSelectLot(e.target.value)}
-            className="h-8 rounded-md border border-input bg-card px-2.5 py-1 text-xs font-bold text-foreground shadow-2xs focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer"
+            className="h-8 max-w-[120px] sm:max-w-[170px] md:max-w-none rounded-md border border-input bg-card px-2 py-1 text-xs font-bold text-foreground shadow-xs focus:outline-none focus:ring-1 focus:ring-primary cursor-pointer truncate"
             title="Filtrer l'application par lot routier"
           >
-            <option value="all">Tous les lots (PK 0+000 à 42+000)</option>
-            <option value="L01">Lot 01 — PK 0+000 à 14+000 (Exécution)</option>
-            <option value="L02">Lot 02 — PK 14+000 à 28+000 (Passation)</option>
-            <option value="L03">Lot 03 — PK 28+000 à 42+000 (Conception DAO)</option>
+            <option value="all">Tous lots (PK 0-42)</option>
+            <option value="L01">Lot 01 — PK 0-14 (Travaux)</option>
+            <option value="L02">Lot 02 — PK 14-28 (Passation)</option>
+            <option value="L03">Lot 03 — PK 28-42 (DAO)</option>
           </select>
 
           <Button
@@ -117,13 +117,13 @@ export const Topbar: React.FC<TopbarProps> = ({ onToggleSidebar, selectedLot, on
       </div>
 
       {/* Partie Droite : Rôle démo, Alertes, Préférences, Avatar */}
-      <div className="flex items-center gap-2 sm:gap-3">
+      <div className="flex items-center gap-1.5 sm:gap-2.5">
         {/* Bouton Présentation Projet & Besoins */}
         <Button
           variant="outline"
           size="sm"
           onClick={() => setIsProjectModalOpen(true)}
-          className="hidden lg:flex items-center gap-1.5 text-xs font-bold bg-primary/10 border-primary/30 text-primary hover:bg-primary/20 shadow-2xs h-8 cursor-pointer"
+          className="hidden lg:flex items-center gap-1.5 text-xs font-bold bg-primary/10 border-primary/30 text-primary hover:bg-primary/20 shadow-xs h-8 cursor-pointer"
           title="Découvrir le projet routier RN13, les 5 acteurs et le besoin métier"
         >
           <Sparkles className="h-3.5 w-3.5 text-amber-500 animate-pulse" />
@@ -162,7 +162,7 @@ export const Topbar: React.FC<TopbarProps> = ({ onToggleSidebar, selectedLot, on
             </Button>
           </DropdownMenuTrigger>
 
-          <DropdownMenuContent align="end" className="w-80 sm:w-96 p-2 shadow-xl">
+          <DropdownMenuContent align="end" className="w-[calc(100vw-2rem)] sm:w-96 max-w-sm p-2 shadow-xl">
             <div className="flex items-center justify-between pb-2 border-b border-border">
               <div className="flex items-center gap-1.5">
                 <Bell className="h-4 w-4 text-primary" />

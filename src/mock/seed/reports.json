@@ -1,0 +1,53 @@
+[
+  {
+    "id": "rpt-001",
+    "code": "RN13-L01-RAP-ETA-2026-M09",
+    "type": "RPT-ETA",
+    "lotId": "L01",
+    "period": "Septembre 2026",
+    "title": "Rapport Mensuel d'État et d'Avancement des Travaux N°09 — Lot L01",
+    "progressPhysicalPct": 68,
+    "progressFinancialPct": 62,
+    "openNcrCount": 3,
+    "incidentCount": 1,
+    "empriseLiberationPct": 85,
+    "generatedBy": "Rim Cherif (AMO)",
+    "generatedAt": "2026-10-05T17:00:00",
+    "status": "Published",
+    "executiveSummary": "L'avancement physique cumulé atteint 68% contre une prévision contractuelle de 65%. La cadence des terrassements et de pose des dalots cadres est satisfaisante. Le point d'attention prioritaire concerne la libération des deux dernières parcelles au PK 12+450 (école de Douar El Khir) et la maîtrise des poussières."
+  },
+  {
+    "id": "rpt-002",
+    "code": "RN13-L01-RAP-ES-2026-T03",
+    "type": "RPT-ES",
+    "lotId": "L01",
+    "period": "3ème Trimestre 2026",
+    "title": "Rapport Trimestriel de Surveillance et Suivi Environnemental & Social (E&S)",
+    "progressPhysicalPct": 68,
+    "progressFinancialPct": 62,
+    "openNcrCount": 1,
+    "incidentCount": 2,
+    "empriseLiberationPct": 85,
+    "generatedBy": "Yasmine Kefi (AMO E&S)",
+    "generatedAt": "2026-10-02T11:00:00",
+    "status": "TransmisBailleur",
+    "executiveSummary": "Conformité globale aux normes environnementales de la Banque Mondiale. 100% des ouvriers ont signé le code de conduite. Formation sécurité et prévention des VBG dispensée à 145 salariés. Suivi de la qualité de l'air aux abords des agglomérations conforme aux valeurs guides."
+  },
+  {
+    "id": "rpt-003",
+    "code": "RN13-L03-RAP-DAO-2026-M10",
+    "type": "RPT-ETA",
+    "lotId": "L03",
+    "period": "Octobre 2026",
+    "title": "Rapport d'État d'Avancement de la Phase Conception & Préparation DAO — Lot L03",
+    "progressPhysicalPct": 0,
+    "progressFinancialPct": 0,
+    "openNcrCount": 0,
+    "incidentCount": 0,
+    "empriseLiberationPct": 100,
+    "generatedBy": "Hichem Gharbi (MO)",
+    "generatedAt": "2026-10-08T15:30:00",
+    "status": "Brouillon",
+    "executiveSummary": "Le dossier d'appel d'offres du Lot L03 est en cours de finalisation après intégration des observations de l'AMO et de la MOE. Demande de non-objection soumise au bailleur le 06/10/2026."
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "alt-001",
+    "timestamp": "2026-10-10T08:45:00",
+    "title": "Incident grave : Notification au bailleur requise sous 48h",
+    "message": "Renversement d'engin au PK 5+850 (Lot L01). Le formulaire de notification préalable à la Banque Mondiale doit être transmis avant le 11/10/2026 à 07h30.",
+    "severity": "critical",
+    "targetActors": ["mo", "amo", "moe"],
+    "linkRoute": "/execution/incidents/inc-001",
+    "isRead": false,
+    "hasCountdown": true,
+    "countdownMinutes": 1350
+  },
+  {
+    "id": "alt-002",
+    "timestamp": "2026-10-10T08:30:00",
+    "title": "Décompte mensuel N°04 en attente de certification",
+    "message": "L'Entreprise Bouzid Travaux a soumis le décompte IPC-L01-N04 d'un montant net de 1 245 800 TND. Visa de la MOE requis sous 7 jours.",
+    "severity": "warning",
+    "targetActors": ["moe", "mo", "entreprise"],
+    "linkRoute": "/execution/decomptes",
+    "isRead": false
+  },
+  {
+    "id": "alt-003",
+    "timestamp": "2026-10-10T08:15:00",
+    "title": "Demande de Non-Objection sur le DAO L03",
+    "message": "Demande NO-2026-0012 en cours d'instruction par la Banque Mondiale. Échéance estimée au 20/10/2026.",
+    "severity": "info",
+    "targetActors": ["bailleur", "mo", "amo"],
+    "linkRoute": "/revues/non-objection",
+    "isRead": false
+  },
+  {
+    "id": "alt-004",
+    "timestamp": "2026-10-10T07:50:00",
+    "title": "Condition de démarrage bloquante : Tronçon 4",
+    "message": "Travaux interdits sur le tronçon PK 11+000 à 14+000 tant que les indemnités foncières des 2 ménages PAP ne sont pas soldées.",
+    "severity": "critical",
+    "targetActors": ["entreprise", "moe", "mo"],
+    "linkRoute": "/execution/demarrage",
+    "isRead": false
+  },
+  {
+    "id": "alt-005",
+    "timestamp": "2026-10-10T07:30:00",
+    "title": "Non-Conformité critique NCR-2026-0041 : Balisage de nuit",
+    "message": "Absence de signalisation temporaire lumineuse au PK 12+450. Mise en demeure de l'Entreprise avec délai impératif de 48h.",
+    "severity": "warning",
+    "targetActors": ["entreprise", "moe"],
+    "linkRoute": "/execution/qualite",
+    "isRead": false
+  },
+  {
+    "id": "alt-006",
+    "timestamp": "2026-10-09T16:00:00",
+    "title": "Plainte riveraine : Poussière devant l'école Douar El Khir",
+    "message": "Plainte citoyenne GRIEF-2026-0042 en cours d'instruction. SLA d'engagement expirant dans 3 jours ouvrables.",
+    "severity": "warning",
+    "targetActors": ["mo", "entreprise", "moe"],
+    "linkRoute": "/social/plaintes",
+    "isRead": false
+  },
+  {
+    "id": "alt-007",
+    "timestamp": "2026-10-09T14:30:00",
+    "title": "Commentaires bloquants sur le CCTP Lot L03",
+    "message": "Le CCTP Terrassements et Chaussées comporte 2 commentaires bloquants non levés (vitesse de référence et épaisseur de chaussée).",
+    "severity": "warning",
+    "targetActors": ["mo", "amo", "moe"],
+    "linkRoute": "/revues/crd",
+    "isRead": false
+  },
+  {
+    "id": "alt-008",
+    "timestamp": "2026-10-09T11:00:00",
+    "title": "Rapport Mensuel d'État et d'Avancement validé",
+    "message": "Le rapport RPT-ETA de septembre 2026 a été consolidé par l'AMO et publié par le Maître d'ouvrage.",
+    "severity": "info",
+    "targetActors": ["bailleur", "mo", "amo", "moe"],
+    "linkRoute": "/rapports",
+    "isRead": true
+  },
+  {
+    "id": "alt-009",
+    "timestamp": "2026-10-08T15:20:00",
+    "title": "Non-Objection accordée sur l'attribution du Lot L02",
+    "message": "La Banque Mondiale a octroyé son avis de non-objection sur le rapport d'évaluation des offres.",
+    "severity": "info",
+    "targetActors": ["mo", "bailleur", "amo"],
+    "linkRoute": "/passation",
+    "isRead": true
+  },
+  {
+    "id": "alt-010",
+    "timestamp": "2026-10-08T10:15:00",
+    "title": "Alerte qualité : Équivalent de sable non conforme",
+    "message": "Essai de laboratoire au PK 6+400 révélant un équivalent de sable de 58% (inférieur au seuil de 65%). Contre-essai contradictoire requis.",
+    "severity": "warning",
+    "targetActors": ["moe", "entreprise"],
+    "linkRoute": "/execution/qualite",
+    "isRead": true
+  },
+  {
+    "id": "alt-011",
+    "timestamp": "2026-10-07T16:00:00",
+    "title": "Note de calcul Dalot PK 5+820 révisée",
+    "message": "L'Entreprise a déposé la révision P02 de la note de calcul suite aux observations sur les armatures transversales.",
+    "severity": "info",
+    "targetActors": ["moe", "entreprise"],
+    "linkRoute": "/execution/etudes",
+    "isRead": true
+  },
+  {
+    "id": "alt-012",
+    "timestamp": "2026-10-07T11:45:00",
+    "title": "Plainte citoyenne en retard : Accès riverain coupé",
+    "message": "La plainte GRIEF-2026-0039 dépasse le délai de traitement contractuel (+5 jours). Intervention requise d'urgence.",
+    "severity": "critical",
+    "targetActors": ["mo", "entreprise"],
+    "linkRoute": "/social/plaintes",
+    "isRead": true
+  },
+  {
+    "id": "alt-013",
+    "timestamp": "2026-10-06T14:00:00",
+    "title": "Indemnisation foncière : Accord signé ménage HH-L01-0042",
+    "message": "Offre acceptée pour un montant de 38 500 TND. Mandat de paiement du premier acompte en cours d'approbation.",
+    "severity": "info",
+    "targetActors": ["mo"],
+    "linkRoute": "/social/par",
+    "isRead": true
+  },
+  {
+    "id": "alt-014",
+    "timestamp": "2026-10-05T09:30:00",
+    "title": "Audit de sécurité routière préliminaire disponible",
+    "message": "Le rapport d'audit de sécurité routière sur le tracé en plan du Lot L03 est consultable dans l'espace documentaire.",
+    "severity": "info",
+    "targetActors": ["mo", "amo", "moe"],
+    "linkRoute": "/documents",
+    "isRead": true
+  },
+  {
+    "id": "alt-015",
+    "timestamp": "2026-10-04T17:15:00",
+    "title": "Nouveau cas confidentiel enregistré (VBG / EAS)",
+    "message": "Cas confidentiel enregistré par la référente VBG. Procédure d'orientation vers les structures médicales et juridiques activée.",
+    "severity": "warning",
+    "targetActors": ["mo"],
+    "linkRoute": "/social/vbg",
+    "isRead": true
+  },
+  {
+    "id": "alt-016",
+    "timestamp": "2026-10-04T12:00:00",
+    "title": "Synchronisation du journal d'audit et chaîne de traçabilité",
+    "message": "Tous les visas, commentaires et décisions de la semaine sont scellés avec empreintes cryptographiques SHA-256.",
+    "severity": "info",
+    "targetActors": ["mo", "amo", "bailleur"],
+    "linkRoute": "/admin/audit",
+    "isRead": true
+  }
+]

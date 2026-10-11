@@ -1,0 +1,49 @@
+[
+  {
+    "id": "inc-001",
+    "number": "INC-2026-0008",
+    "lotId": "L01",
+    "pk": "5+850",
+    "date": "2026-10-09T07:30:00",
+    "title": "Renversement d'un tombereau articulé 30T lors du déchargement en crête de remblai",
+    "nature": "Accident engin",
+    "severity": "Grave",
+    "injuredCount": 1,
+    "description": "Affaissement ponctuel de l'accotement instable sous les roues arrière du dumper Bell B30D. Le chauffeur a été évacué pour contusions et examen préventif à l'hôpital de Sbeïtla. Dégâts matériels sur la cabine de l'engin.",
+    "declaredBy": "Slim Dhaouadi (Resp HSE Entreprise)",
+    "declaredByActor": "E",
+    "donorNotificationDeadline": "2026-10-11T07:30:00",
+    "donorNotifiedAt": null,
+    "status": "Declare"
+  },
+  {
+    "id": "inc-002",
+    "number": "INC-2026-0004",
+    "lotId": "L01",
+    "pk": "3+200",
+    "date": "2026-09-14T14:15:00",
+    "title": "Déversement accidentel de 60 litres de gasoil lors du remplissage d'une pelle",
+    "nature": "Pollution accidentelle hydrocarbures",
+    "severity": "Moyenne",
+    "injuredCount": 0,
+    "description": "Rupture du flexible de la cuve mobile de ravitaillement. Kit antipollution absorbant déployé en 10 minutes. Terres souillées excavées et stockées sur bâche étanche.",
+    "declaredBy": "Marwa Ayari (MOE)",
+    "declaredByActor": "D",
+    "status": "Cloture"
+  },
+  {
+    "id": "inc-003",
+    "number": "INC-2026-0002",
+    "lotId": "L01",
+    "pk": "1+400",
+    "date": "2026-08-05T11:00:00",
+    "title": "Coupure superficielle au gant de protection lors de manutention d'armatures",
+    "nature": "Chute de hauteur",
+    "severity": "Faible",
+    "injuredCount": 1,
+    "description": "Blessure bénigne soignée par l'infirmier de la base-vie. Reprise du travail l'après-midi même sans arrêt maladie.",
+    "declaredBy": "Slim Dhaouadi (Entreprise)",
+    "declaredByActor": "E",
+    "status": "Cloture"
+  }
+]

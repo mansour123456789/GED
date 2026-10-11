@@ -1,0 +1,63 @@
+[
+  {
+    "id": "grv-001",
+    "number": "GRIEF-2026-0042",
+    "lotId": "L01",
+    "pk": "12+450",
+    "date": "2026-10-06T08:30:00",
+    "category": "Poussière et arrosage",
+    "complainantName": "Directeur École Primaire Douar El Khir",
+    "isAnonymous": false,
+    "description": "Nuages continus de poussière provoqués par la circulation des tombereaux et camions de remblai aux heures d'entrée et de sortie des écoliers. Absence d'arroseuse le matin.",
+    "assignedTo": "Leïla Trabelsi (Responsable MGP)",
+    "slaDueDate": "2026-10-13T18:00:00",
+    "status": "EnInstruction",
+    "proposedSolution": "Ordre de service à l'entreprise pour programmation de 4 passages quotidiens de la citerne d'arrosage de 10 000L aux abords de l'école (7h30, 11h30, 13h30, 17h00)."
+  },
+  {
+    "id": "grv-002",
+    "number": "GRIEF-2026-0039",
+    "lotId": "L01",
+    "pk": "6+200",
+    "date": "2026-09-25T10:00:00",
+    "category": "Accès riverain coupé",
+    "complainantName": "Habitants et agriculteurs du Douar Oulad Ali",
+    "isAnonymous": false,
+    "description": "La tranchée d'assainissement longitudinale a coupé l'accès carrossable des tracteurs aux oliveraies en pleine période de préparation de la récolte.",
+    "assignedTo": "Leïla Trabelsi (Responsable MGP)",
+    "slaDueDate": "2026-10-02T18:00:00",
+    "status": "EnInstruction",
+    "proposedSolution": "Pose d'une buse provisoire de Ø600 avec remblai de franchissement stabilisé."
+  },
+  {
+    "id": "grv-003",
+    "number": "GRIEF-2026-0035",
+    "lotId": "L01",
+    "pk": "3+800",
+    "date": "2026-09-18T14:00:00",
+    "category": "Bruit nocturne",
+    "complainantName": "Anonyme (Commerçant riverain)",
+    "isAnonymous": true,
+    "description": "Travaux de concassage et bruits de générateurs signalés après 22h00 à proximité de la base arrière.",
+    "assignedTo": "Leïla Trabelsi (Responsable MGP)",
+    "slaDueDate": "2026-09-28T18:00:00",
+    "status": "SolutionProposee",
+    "proposedSolution": "Arrêt strict de toute activité bruyante à 20h00 confirmé par PV de constat de la MOE."
+  },
+  {
+    "id": "grv-004",
+    "number": "GRIEF-2026-0028",
+    "lotId": "L01",
+    "pk": "1+100",
+    "date": "2026-08-10T16:20:00",
+    "category": "Fissures sur bâti",
+    "complainantName": "Habib Sassi",
+    "isAnonymous": false,
+    "description": "Légère fissure sur le muret extérieur suite à une marche arrière d'un camion benne sous-traitant.",
+    "assignedTo": "Leïla Trabelsi (Responsable MGP)",
+    "slaDueDate": "2026-08-20T18:00:00",
+    "status": "Cloturee",
+    "proposedSolution": "Réfection intégrale du muret et peinture prises en charge par l'assurance de l'entreprise Bouzid Travaux.",
+    "satisfactionRecorded": "Satisfait"
+  }
+]

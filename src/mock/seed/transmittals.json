@@ -1,0 +1,178 @@
+[
+  {
+    "id": "TR-001",
+    "slipNumber": "TR-RN13-L01-2026-0045",
+    "lotId": "L01",
+    "lotName": "Lot 1 (Sfax - Menzel Chaker, PK 0 à 14)",
+    "objectTitle": "Soumission des profils en travers d'exécution et calcul giratoire PK 12+450",
+    "senderOrg": "SOROUBAT BTP (Entreprise Titulaire)",
+    "senderActor": "E",
+    "senderUser": "Ing. Yassine (Directeur Travaux Soroubat)",
+    "recipientOrg": "SCET-TUNISIE (Mission de Contrôle MOE)",
+    "recipientActor": "D",
+    "recipientUser": "Ing. Nizar (Chef de Mission SCET)",
+    "submissionDate": "2026-10-08",
+    "dueDate": "2026-10-18",
+    "status": "Accuse_Receptionne",
+    "ackDate": "2026-10-09T08:30:00Z",
+    "ackUser": "Ing. Nizar (Chef de Mission SCET)",
+    "ackReference": "AR-SCET-RN13-2026-112",
+    "downloadSlipFileName": "Bordereau_Transmission_TR-0045_Signe.pdf",
+    "items": [
+      {
+        "id": "ITEM-45-1",
+        "docCode": "TN-R2X2-L01-CHA-PLN-000123",
+        "title": "Profils en travers types - Section 2x2 voies avec TPC 3.00m",
+        "revision": "R02",
+        "fileFormat": "AUTOCAD",
+        "fileName": "PXT_TN_RN13_L01_PK12_R02.dwg",
+        "fileSizeMb": 14.2,
+        "purpose": "Pour Approbation",
+        "status": "Approuve_Avec_Reserves"
+      },
+      {
+        "id": "ITEM-45-2",
+        "docCode": "TN-R2X2-L01-CHA-NOTE-000124",
+        "title": "Note de calcul de dimensionnement de chaussée (Catalogue DGPC 2018)",
+        "revision": "R01",
+        "fileFormat": "PDF",
+        "fileName": "Note_Calcul_Structure_Chaussee_L01.pdf",
+        "fileSizeMb": 4.8,
+        "purpose": "Pour Approbation",
+        "status": "Approuve"
+      },
+      {
+        "id": "ITEM-45-3",
+        "docCode": "TN-R2X2-L01-HSE-DEV-000125",
+        "title": "Plan de balisage temporaire giratoire PK 12+450 (Balises K5a / K8)",
+        "revision": "R03",
+        "fileFormat": "PDF",
+        "fileName": "Plan_Balisage_Giratoire_PK12_R03.pdf",
+        "fileSizeMb": 6.1,
+        "purpose": "Pour Bon pour Exécution",
+        "status": "Approuve"
+      }
+    ]
+  },
+  {
+    "id": "TR-002",
+    "slipNumber": "TR-RN13-L02-2026-0038",
+    "lotId": "L02",
+    "lotName": "Lot 2 (Menzel Chaker - Ouled Haffouz, PK 14 à 28)",
+    "objectTitle": "Transmission pour validation Maître d'Ouvrage du plan de déviation Oued Amor",
+    "senderOrg": "SCET-TUNISIE (Mission de Contrôle MOE)",
+    "senderActor": "D",
+    "senderUser": "Ing. Nizar (Chef de Mission SCET)",
+    "recipientOrg": "DGPC / Ministère de l'Équipement (Maître d'Ouvrage)",
+    "recipientActor": "B",
+    "recipientUser": "M. Tarek (Chef Projet DGPC)",
+    "submissionDate": "2026-10-09",
+    "dueDate": "2026-10-16",
+    "status": "En_Examen",
+    "ackDate": "2026-10-09T14:15:00Z",
+    "ackUser": "M. Tarek (Chef Projet DGPC)",
+    "ackReference": "AR-DGPC-RN13-2026-089",
+    "downloadSlipFileName": "Bordereau_Transmission_TR-0038_Signe.pdf",
+    "items": [
+      {
+        "id": "ITEM-38-1",
+        "docCode": "TN-R2X2-L02-HSE-DEV-000210",
+        "title": "Dossier de déviation technique Oued Amor avec avis Garde Nationale",
+        "revision": "R01",
+        "fileFormat": "PDF",
+        "fileName": "Dossier_Deviation_Oued_Amor_R01.pdf",
+        "fileSizeMb": 8.7,
+        "purpose": "Pour Approbation",
+        "status": "En_Attente"
+      },
+      {
+        "id": "ITEM-38-2",
+        "docCode": "TN-R2X2-L02-HYD-PLN-000211",
+        "title": "Plans de ferraillage du dalot cadre 3x (3.00x2.50) Oued Amor",
+        "revision": "R00",
+        "fileFormat": "AUTOCAD",
+        "fileName": "Ferraillage_Dalot_Oued_Amor.dwg",
+        "fileSizeMb": 18.5,
+        "purpose": "Pour Approbation",
+        "status": "En_Attente"
+      }
+    ]
+  },
+  {
+    "id": "TR-003",
+    "slipNumber": "TR-RN13-L01-2026-0052",
+    "lotId": "L01",
+    "lotName": "Lot 1 (Sfax - Menzel Chaker, PK 0 à 14)",
+    "objectTitle": "Résultats des essais de compacité et déflexion sur GNT 0/31.5 PK 0+000 à 5+000",
+    "senderOrg": "Laboratoire Agréé CETEC",
+    "senderActor": "D",
+    "senderUser": "Dr. Walid (Responsable Laboratoire Géotechnique)",
+    "recipientOrg": "SOROUBAT BTP & Mission de Contrôle",
+    "recipientActor": "E",
+    "recipientUser": "Ing. Yassine & Ing. Nizar",
+    "submissionDate": "2026-10-06",
+    "dueDate": "2026-10-11",
+    "status": "Traite_Vise",
+    "ackDate": "2026-10-06T11:00:00Z",
+    "ackUser": "Ing. Yassine (Soroubat)",
+    "ackReference": "AR-SOROUBAT-LAB-045",
+    "downloadSlipFileName": "Bordereau_Transmission_TR-0052_Labo.pdf",
+    "items": [
+      {
+        "id": "ITEM-52-1",
+        "docCode": "TN-R2X2-L01-LAB-ESS-000450",
+        "title": "Tableau récapitulatif des densités in-situ au densitomètre à membrane",
+        "revision": "R01",
+        "fileFormat": "EXCEL",
+        "fileName": "Synthese_Densites_GNT_PK0_PK5.xlsx",
+        "fileSizeMb": 2.1,
+        "purpose": "Pour Information",
+        "status": "Approuve"
+      },
+      {
+        "id": "ITEM-52-2",
+        "docCode": "TN-R2X2-L01-LAB-PV-000451",
+        "title": "PV officiel de levée du point d'arrêt n° 08 (Fondation de chaussée)",
+        "revision": "R01",
+        "fileFormat": "PDF",
+        "fileName": "PV_Levee_Point_Arret_08_Signe.pdf",
+        "fileSizeMb": 3.4,
+        "purpose": "Pour Bon pour Exécution",
+        "status": "Approuve"
+      }
+    ]
+  },
+  {
+    "id": "TR-004",
+    "slipNumber": "TR-RN13-L03-2026-0019",
+    "lotId": "L03",
+    "lotName": "Lot 3 (Ouled Haffouz - Sbeitla / Kasserine, PK 28 à 42)",
+    "objectTitle": "Plans de récolement du déplacement réseau haute tension STEG PK 35+800",
+    "senderOrg": "STEG Région Kasserine / Sous-traitant Réseaux",
+    "senderActor": "E",
+    "senderUser": "Ing. Mourad (STEG)",
+    "recipientOrg": "DGPC & Mission de Contrôle",
+    "recipientActor": "B",
+    "recipientUser": "M. Tarek (DGPC)",
+    "submissionDate": "2026-09-25",
+    "dueDate": "2026-10-05",
+    "status": "Traite_Vise",
+    "ackDate": "2026-09-26T09:10:00Z",
+    "ackUser": "M. Tarek (DGPC)",
+    "ackReference": "AR-DGPC-STEG-019",
+    "downloadSlipFileName": "Bordereau_Transmission_TR-0019_STEG.pdf",
+    "items": [
+      {
+        "id": "ITEM-19-1",
+        "docCode": "TN-R2X2-L03-RES-REC-000088",
+        "title": "Plan de récolement géoréférencé - Ligne aérienne HT déplacée",
+        "revision": "R00",
+        "fileFormat": "AUTOCAD",
+        "fileName": "Recollement_HT_STEG_PK35_800.dwg",
+        "fileSizeMb": 11.4,
+        "purpose": "Pour Recolement",
+        "status": "Approuve"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "vbg-001",
+    "caseCode": "VBG-2026-CONF-001",
+    "lotId": "L01",
+    "date": "2026-08-22",
+    "assistanceType": "Soutien psychologique",
+    "referredProvider": "Association Locale Femmes & Développement Sbeïtla",
+    "status": "Accompagné",
+    "restrictedToUser": "mo.grm"
+  },
+  {
+    "id": "vbg-002",
+    "caseCode": "VBG-2026-CONF-002",
+    "lotId": "L01",
+    "date": "2026-09-10",
+    "assistanceType": "Prise en charge médicale",
+    "referredProvider": "Centre de Santé de Base & Hôpital Régional",
+    "status": "Clôturé",
+    "restrictedToUser": "mo.grm"
+  },
+  {
+    "id": "vbg-003",
+    "caseCode": "VBG-2026-CONF-003",
+    "lotId": "L01",
+    "date": "2026-10-04",
+    "assistanceType": "Assistance juridique",
+    "referredProvider": "Point d'Écoute Juridique Conventionné",
+    "status": "Orienté",
+    "restrictedToUser": "mo.grm"
+  }
+]

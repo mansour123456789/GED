@@ -1,0 +1,134 @@
+{
+  "postesV1": [
+    {
+      "id": "P01",
+      "poste": "Cadrage et architecture système",
+      "chargeJoursPersonnes": 10,
+      "tarifUnitaireTnd": 800,
+      "montantTnd": 8000,
+      "description": "Ateliers métier Tunisie, modélisation PostGIS/PostgreSQL, workflows de visa, matrice bailleurs BM/BEI."
+    },
+    {
+      "id": "P02",
+      "poste": "UX, design system et maquettes d'écrans",
+      "chargeJoursPersonnes": 10,
+      "tarifUnitaireTnd": 450,
+      "montantTnd": 4500,
+      "description": "Ergonomie chantier et bureau, design tokens, formulaires réactifs, écrans cartographiques et registre CRD."
+    },
+    {
+      "id": "P03",
+      "poste": "Développement Frontend React & PWA terrain",
+      "chargeJoursPersonnes": 40,
+      "tarifUnitaireTnd": 550,
+      "montantTnd": 22000,
+      "description": "Interface React/TypeScript, intégration Leaflet OSM, visionneuse PDF et plans, mode déconnecté, formulaires."
+    },
+    {
+      "id": "P04",
+      "poste": "Backend API, modèle de données & workflows",
+      "chargeJoursPersonnes": 45,
+      "tarifUnitaireTnd": 600,
+      "montantTnd": 27000,
+      "description": "API REST /api/v1, gestion des versions immutables, bordereaux de transmission, contrôle d'accès RBAC et journal probant."
+    },
+    {
+      "id": "P05",
+      "poste": "Architecture Azure, sécurité et CI/CD",
+      "chargeJoursPersonnes": 12,
+      "tarifUnitaireTnd": 800,
+      "montantTnd": 9600,
+      "description": "Bicep/Terraform, Azure App Service, Blob Storage chiffré, pipeline GitHub Actions avec scans de vulnérabilités."
+    },
+    {
+      "id": "P06",
+      "poste": "Tests d'intégration, sécurité & recette usine",
+      "chargeJoursPersonnes": 18,
+      "tarifUnitaireTnd": 400,
+      "montantTnd": 7200,
+      "description": "Cahier de recette 14 jalons, tests de reprise/restauration sauvegardes, étanchéité entre lots, tests de charge."
+    },
+    {
+      "id": "P07",
+      "poste": "Documentation technique & formation utilisateurs",
+      "chargeJoursPersonnes": 5,
+      "tarifUnitaireTnd": 500,
+      "montantTnd": 2500,
+      "description": "Guides d'exploitation, manuel pour les entreprises et la mission de contrôle, sessions de prise en main."
+    }
+  ],
+  "syntheseV1": {
+    "totalJoursPersonnes": 140,
+    "sousTotalHt": 80800,
+    "tauxAleaPct": 15,
+    "montantAleaHt": 12120,
+    "budgetCibleHt": 92920,
+    "devise": "DT HT",
+    "baseCalcul": "Équipe tunisienne - Octobre 2026"
+  },
+  "scenarios": [
+    {
+      "version": "Prototype",
+      "titre": "Prototype de démonstration & POC",
+      "delaiEstime": "4 à 6 semaines",
+      "budgetMinTnd": 12000,
+      "budgetMaxTnd": 20000,
+      "perimetre": "Démonstration des écrans clés, parcours simplifié de dépôt et visualisation des plans sur maquette."
+    },
+    {
+      "version": "V1_Professionnelle",
+      "titre": "V1 Professionnelle Opérationnelle",
+      "delaiEstime": "4 à 5 mois",
+      "budgetMinTnd": 70000,
+      "budgetMaxTnd": 100000,
+      "perimetre": "GED complète, versions figées, rôles A/B/C/D/E, circuits de visas, bordereaux de transmission, audit et CI/CD."
+    },
+    {
+      "version": "Plateforme_Complete",
+      "titre": "Plateforme Complète du Socle Métier",
+      "delaiEstime": "7 à 10 mois",
+      "budgetMinTnd": 160000,
+      "budgetMaxTnd": 240000,
+      "perimetre": "V1 + Qualité laboratoire, points d'arrêt, E&S, carte OSM avancée, formulaires terrain déconnectés, finances et DOE."
+    }
+  ],
+  "offresCommerciales": [
+    {
+      "offre": "Essentielle",
+      "perimetre": "1 chantier routier, GED plans, visas, bordereaux de transmission, recherche et journal d'audit.",
+      "setupMinTnd": 5000,
+      "setupMaxTnd": 8000,
+      "abonnementMinTnd": 900,
+      "abonnementMaxTnd": 1400,
+      "usersCount": 20,
+      "lotsCount": "1 Lot"
+    },
+    {
+      "offre": "Professionnelle",
+      "perimetre": "1 grand projet autoroutier multi-lots, qualité, sécurité routière, terrain géolocalisé et suivi bailleurs.",
+      "setupMinTnd": 12000,
+      "setupMaxTnd": 20000,
+      "abonnementMinTnd": 2000,
+      "abonnementMaxTnd": 3500,
+      "usersCount": 50,
+      "lotsCount": "Multi-lots (3 à 5 lots)"
+    },
+    {
+      "offre": "Institutionnelle",
+      "perimetre": "Portefeuille multi-projets Ministère/DGPC, intégrations SI, sécurité renforcée, SLA prioritaire.",
+      "setupMinTnd": 25000,
+      "setupMaxTnd": 50000,
+      "abonnementMinTnd": 5000,
+      "abonnementMaxTnd": 9000,
+      "usersCount": 150,
+      "lotsCount": "Illimité"
+    }
+  ],
+  "coutsRecurrentsExploitation": {
+    "azureMin": 600,
+    "azureMax": 1500,
+    "supportMin": 800,
+    "supportMax": 1500,
+    "margeBruteCible": 60
+  }
+}

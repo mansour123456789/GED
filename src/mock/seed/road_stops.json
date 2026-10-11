@@ -1,0 +1,113 @@
+[
+  {
+    "id": "sec-001",
+    "lotId": "L01",
+    "pkStart": "0+000",
+    "pkEnd": "4+800",
+    "title": "Section Sortie Sfax ➔ Bir Ali (PK 0 à 4+800)",
+    "currentWork": "Terrassements (Déblais/Remblais)",
+    "state": "EnCours",
+    "allConditionsMet": true,
+    "requiredConditionsToRestart": [
+      "PV de Libération d'Emprise (PVLE-0005 & 0018) signé",
+      "Essais Proctor compactage ≥ 95%",
+      "Plan de circulation PGT agréé par la Garde Nationale"
+    ],
+    "contractorName": "Soroubat BTP",
+    "supervisorName": "SCET-Tunisie"
+  },
+  {
+    "id": "sec-002",
+    "lotId": "L01",
+    "pkStart": "4+800",
+    "pkEnd": "12+450",
+    "title": "Section Bir Ali ➔ Menzel Chaker Ouest (PK 4+800 à 12+450)",
+    "currentWork": "Couche de Fondation (GNT)",
+    "state": "EnCours",
+    "allConditionsMet": true,
+    "requiredConditionsToRestart": [
+      "Agrément carrière granulats GNT 0/31.5",
+      "Réception de la couche de forme",
+      "Arrosage régulier contre les poussières"
+    ],
+    "contractorName": "Soroubat BTP",
+    "supervisorName": "SCET-Tunisie"
+  },
+  {
+    "id": "sec-003",
+    "lotId": "L01",
+    "pkStart": "12+450",
+    "pkEnd": "13+200",
+    "title": "Section Traversee Menzel Chaker / Oued Chaffar (PK 12+450 à 13+200)",
+    "currentWork": "Terrassements (Déblais/Remblais)",
+    "state": "ArreteBloque",
+    "stopReason": "Litige Foncier / Parcelle non libérée",
+    "stopDate": "2026-09-15",
+    "daysStopped": 26,
+    "activeOsNumber": "OS-RN13-2026-002",
+    "allConditionsMet": false,
+    "requiredConditionsToRestart": [
+      "Solde intégral du dédommagement de la parcelle RN13-PARC-042 (Salma Mejri — 48 oliviers)",
+      "Signature du PV de Libération Totale d'Emprise (PVLE) avec remise des clés",
+      "Émission de l'Ordre de Service de Reprise par le Maître d'Ouvrage (DGPC)"
+    ],
+    "contractorName": "Soroubat BTP",
+    "supervisorName": "SCET-Tunisie"
+  },
+  {
+    "id": "sec-004",
+    "lotId": "L01",
+    "pkStart": "13+200",
+    "pkEnd": "22+100",
+    "title": "Section Plateforme Plaine de Sfax Est (PK 13+200 à 22+100)",
+    "currentWork": "Terrassements (Déblais/Remblais)",
+    "state": "EnCours",
+    "allConditionsMet": true,
+    "requiredConditionsToRestart": [
+      "PAQ terrassement visé Bon pour Exécution",
+      "Reconnaissance géotechnique complémentaire"
+    ],
+    "contractorName": "Soroubat BTP",
+    "supervisorName": "SCET-Tunisie"
+  },
+  {
+    "id": "sec-005",
+    "lotId": "L02",
+    "pkStart": "22+100",
+    "pkEnd": "23+000",
+    "title": "Ouvrage Hydraulique Dalot Cadre 3x2 — PK 22+100 (Ouled Haffouz)",
+    "currentWork": "Ouvrage Hydraulique (Dalot)",
+    "state": "ArreteBloque",
+    "stopReason": "Non-Conformité Critique (Béton non résistant)",
+    "stopDate": "2026-10-02",
+    "daysStopped": 9,
+    "activeOsNumber": "OS-RN13-2026-005",
+    "allConditionsMet": false,
+    "requiredConditionsToRestart": [
+      "Essais d'auscultation sonique et carottage contradictoire du radier",
+      "Levée formelle de la fiche de non-conformité NCR-2026-0042 par la MOE",
+      "Agrément de la nouvelle centrale à béton de remplacement"
+    ],
+    "contractorName": "Somatra-GET",
+    "supervisorName": "COMETE Engineering"
+  },
+  {
+    "id": "sec-006",
+    "lotId": "L02",
+    "pkStart": "23+000",
+    "pkEnd": "28+000",
+    "title": "Section Entrée Sidi Bouzid / Piste Jelma (PK 23+000 à 28+000)",
+    "currentWork": "Terrassements (Déblais/Remblais)",
+    "state": "Ralenti",
+    "stopReason": "Réseau Concessionnaire (SONEDE/STEG)",
+    "stopDate": "2026-09-28",
+    "daysStopped": 13,
+    "allConditionsMet": false,
+    "requiredConditionsToRestart": [
+      "Finalisation du raccordement du by-pass de la conduite d'eau SONEDE Ø600",
+      "PV de constat conjoint SONEDE / Ministère de l'Équipement"
+    ],
+    "contractorName": "Somatra-GET",
+    "supervisorName": "COMETE Engineering"
+  }
+]

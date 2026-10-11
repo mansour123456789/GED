@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ipc-004",
+    "number": "IPC-L01-N04",
+    "lotId": "L01",
+    "month": "Septembre 2026",
+    "contractorName": "Bouzid Travaux & Partenaires",
+    "amountGrossTnd": 1384222,
+    "retentionTnd": 138422,
+    "amountNetTnd": 1245800,
+    "status": "Soumis",
+    "submittedAt": "2026-10-04T16:00:00",
+    "transmittalId": "TR-L01-2026-088"
+  },
+  {
+    "id": "ipc-003",
+    "number": "IPC-L01-N03",
+    "lotId": "L01",
+    "month": "Août 2026",
+    "contractorName": "Bouzid Travaux & Partenaires",
+    "amountGrossTnd": 1488889,
+    "retentionTnd": 148889,
+    "amountNetTnd": 1340000,
+    "status": "Paye",
+    "submittedAt": "2026-09-03T11:00:00",
+    "certifiedAt": "2026-09-08T15:00:00",
+    "approvedAt": "2026-09-14T10:00:00",
+    "paidAt": "2026-09-22T09:30:00",
+    "transmittalId": "TR-L01-2026-072"
+  },
+  {
+    "id": "ipc-002",
+    "number": "IPC-L01-N02",
+    "lotId": "L01",
+    "month": "Juillet 2026",
+    "contractorName": "Bouzid Travaux & Partenaires",
+    "amountGrossTnd": 1244444,
+    "retentionTnd": 124444,
+    "amountNetTnd": 1120000,
+    "status": "Paye",
+    "submittedAt": "2026-08-02T10:00:00",
+    "certifiedAt": "2026-08-07T14:30:00",
+    "approvedAt": "2026-08-12T16:00:00",
+    "paidAt": "2026-08-20T11:00:00",
+    "transmittalId": "TR-L01-2026-054"
+  },
+  {
+    "id": "ipc-001",
+    "number": "IPC-L01-N01",
+    "lotId": "L01",
+    "month": "Juin 2026",
+    "contractorName": "Bouzid Travaux & Partenaires",
+    "amountGrossTnd": 1088889,
+    "retentionTnd": 108889,
+    "amountNetTnd": 980000,
+    "status": "Paye",
+    "submittedAt": "2026-07-02T09:30:00",
+    "certifiedAt": "2026-07-06T17:00:00",
+    "approvedAt": "2026-07-11T12:00:00",
+    "paidAt": "2026-07-18T14:00:00",
+    "transmittalId": "TR-L01-2026-032"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "lab-001",
+    "lotId": "L01",
+    "testType": "Proctor (Compacité)",
+    "pk": "4+200",
+    "date": "2026-10-08",
+    "result": "97.4% OPM",
+    "threshold": "≥ 95% OPM",
+    "isConform": true,
+    "labName": "Laboratoire Central CETEC Sbeïtla"
+  },
+  {
+    "id": "lab-002",
+    "lotId": "L01",
+    "testType": "Portance CBR",
+    "pk": "5+100",
+    "date": "2026-10-07",
+    "result": "CBR = 14",
+    "threshold": "≥ 10 (Plateforme PF2)",
+    "isConform": true,
+    "labName": "Laboratoire de Chantier Bouzid"
+  },
+  {
+    "id": "lab-003",
+    "lotId": "L01",
+    "testType": "Équivalent de Sable",
+    "pk": "6+400",
+    "date": "2026-10-06",
+    "result": "ES = 58%",
+    "threshold": "≥ 65%",
+    "isConform": false,
+    "labName": "Contrôle Extérieur SCET"
+  },
+  {
+    "id": "lab-004",
+    "lotId": "L01",
+    "testType": "Béton 28j (Dalot)",
+    "pk": "5+820",
+    "date": "2026-09-28",
+    "result": "fc28 = 32.5 MPa",
+    "threshold": "≥ 30.0 MPa (C30/37)",
+    "isConform": true,
+    "labName": "Laboratoire Central CETEC Sbeïtla"
+  },
+  {
+    "id": "lab-005",
+    "lotId": "L01",
+    "testType": "Teneur en Liant Bitume",
+    "pk": "1+800",
+    "date": "2026-09-25",
+    "result": "5.45% bitume 35/50",
+    "threshold": "5.3% ± 0.3%",
+    "isConform": true,
+    "labName": "Laboratoire Spécialisé Chaussées Tunis"
+  }
+]

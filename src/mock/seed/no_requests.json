@@ -1,0 +1,56 @@
+[
+  {
+    "id": "no-001",
+    "number": "NO-2026-0012",
+    "lotId": "L03",
+    "title": "Demande de Non-Objection sur le Dossier d'Appel d'Offres (DAO) — Lot L03",
+    "object": "Validation du dossier de consultation des entreprises (CCTP, CCAP, plans généraux, cadre de bordereau des prix et instruments E&S associés).",
+    "docIds": ["doc-001", "doc-002", "doc-003", "doc-004", "doc-006"],
+    "docCodes": [
+      "RN13-L03-PEC-CCTP-0001-P02",
+      "RN13-L03-PEC-CCAP-0001-C01",
+      "RN13-L03-PLN-TGO-0001-P02",
+      "RN13-L03-PLN-PTT-0001-C01",
+      "RN13-L03-ESI-PGES-0001-P02"
+    ],
+    "submittedBy": "Hichem Gharbi (Maître d'ouvrage)",
+    "submittedAt": "2026-10-06T15:00:00",
+    "status": "NO_DEMANDEE",
+    "deadline": "2026-10-20T18:00:00",
+    "letterRef": "REF-MO-2026-1042"
+  },
+  {
+    "id": "no-002",
+    "number": "NO-2026-0008",
+    "lotId": "L02",
+    "title": "Demande de Non-Objection sur le Rapport d'Évaluation des Offres et Proposition d'Attribution — Lot L02",
+    "object": "Attribution provisoire du marché des travaux du Lot L02 au groupement conjoint le moins-disant conforme.",
+    "docIds": [],
+    "docCodes": ["RN13-L02-RAP-EVL-0001-C01", "RN13-L02-PV-OFR-0001-C01"],
+    "submittedBy": "Hichem Gharbi (Maître d'ouvrage)",
+    "submittedAt": "2026-09-12T10:00:00",
+    "status": "NO_OBTENUE",
+    "donorObservations": "Avis de non-objection favorable émis sans réserve. Notification autorisée sous réserve de la période de statu quo (standstill) de 10 jours ouvrés.",
+    "decidedAt": "2026-09-24T16:30:00",
+    "decidedBy": "Amel Dridi (Banque Mondiale)",
+    "letterRef": "WB-TUN-RN13-NO-2026-048",
+    "deadline": "2026-09-26T18:00:00"
+  },
+  {
+    "id": "no-003",
+    "number": "NO-2026-0005",
+    "lotId": "L01",
+    "title": "Demande de Non-Objection sur l'Avenant N°1 — Lot L01",
+    "object": "Prolongation de délai de 45 jours calendaires suite à fortes intempéries et déplacement des réseaux concessionnaires STEG.",
+    "docIds": [],
+    "docCodes": ["RN13-L01-CTR-AVN-0001-P02"],
+    "submittedBy": "Hichem Gharbi (Maître d'ouvrage)",
+    "submittedAt": "2026-08-01T09:00:00",
+    "status": "NO_OBSERVATIONS",
+    "donorObservations": "Non-objection sous réserve de justification détaillée du calendrier critique et renonciation de l'entreprise aux intérêts moratoires sur ce report.",
+    "decidedAt": "2026-08-14T11:00:00",
+    "decidedBy": "Amel Dridi (Banque Mondiale)",
+    "letterRef": "WB-TUN-RN13-NO-2026-031",
+    "deadline": "2026-08-15T18:00:00"
+  }
+]

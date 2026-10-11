@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aud-001",
+    "timestamp": "2026-10-10T08:30:00",
+    "userId": "usr-011",
+    "userName": "Mourad Bouzid",
+    "actorLetter": "E",
+    "action": "Soumission décompte",
+    "targetObject": "IPC-L01-N04",
+    "details": "Soumission du décompte mensuel N°04 pour 1 245 800 TND avec attachements signés contradictoirement."
+  },
+  {
+    "id": "aud-002",
+    "timestamp": "2026-10-09T07:45:00",
+    "userId": "usr-012",
+    "userName": "Slim Dhaouadi",
+    "actorLetter": "E",
+    "action": "Déclaration incident",
+    "targetObject": "INC-2026-0008",
+    "details": "Déclaration d'un incident grave (renversement tombereau PK 5+850) avec déclenchement du compte à rebours 48h."
+  },
+  {
+    "id": "aud-003",
+    "timestamp": "2026-10-06T15:10:00",
+    "userId": "usr-002",
+    "userName": "Hichem Gharbi",
+    "actorLetter": "B",
+    "action": "Demande de non-objection",
+    "targetObject": "NO-2026-0012",
+    "details": "Transmission formelle du DAO Lot L03 à la Banque Mondiale via transmittal numérique sécurisé."
+  },
+  {
+    "id": "aud-004",
+    "timestamp": "2026-10-05T14:15:00",
+    "userId": "usr-002",
+    "userName": "Hichem Gharbi",
+    "actorLetter": "B",
+    "action": "Réponse commentaire CRD",
+    "targetObject": "RN13-L03-PEC-CCTP-0001-P02",
+    "details": "Réponse au commentaire bloquant C-001 concernant la vitesse de référence de 90 km/h."
+  },
+  {
+    "id": "aud-005",
+    "timestamp": "2026-10-04T11:35:00",
+    "userId": "usr-009",
+    "userName": "Walid Jaziri",
+    "actorLetter": "D",
+    "action": "Émission commentaire bloquant",
+    "targetObject": "RN13-L03-PEC-CCTP-0001-P02",
+    "details": "Commentaire bloquant sur l'épaisseur minimale de la couche de roulement en béton bitumineux."
+  },
+  {
+    "id": "aud-006",
+    "timestamp": "2026-09-28T16:05:00",
+    "userId": "usr-002",
+    "userName": "Hichem Gharbi",
+    "actorLetter": "B",
+    "action": "Publication document",
+    "targetObject": "RN13-L03-PEC-CCAP-0001-C01",
+    "details": "Publication définitive en révision C01 après obtention de la non-objection du bailleur. Verrouillage du document."
+  }
+]

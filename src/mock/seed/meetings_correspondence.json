@@ -1,0 +1,253 @@
+{
+  "meetings": [
+    {
+      "id": "MTG-024",
+      "number": "PV-CH-2026-024",
+      "type": "Chantier",
+      "title": "Réunion hebdomadaire de chantier N° 24 - Lot 01",
+      "lotId": "L01",
+      "date": "2026-10-07",
+      "location": "Base vie Soroubat - PK 06+500",
+      "attendees": [
+        { "name": "M. Saiefeddine", "org": "Expert Sécurité Routière", "role": "Auditeur ASR", "present": true },
+        { "name": "Ing. Mehdi Riahi", "org": "DGPC / Ministère Équipement", "role": "Chef de Projet MO", "present": true },
+        { "name": "Ing. Kamel Ben Salem", "org": "SCET-Tunisie", "role": "Chef de Mission MOE", "present": true },
+        { "name": "Dir. Tarek Trabelsi", "org": "SOROUBAT", "role": "Directeur de Travaux", "present": true },
+        { "name": "Mme. Fatma Ben Youssef", "org": "Cellule PAR DGPC", "role": "Responsable Foncier", "present": true },
+        { "name": "Représentant Garde Nationale", "org": "District Sfax", "role": "Sécurité Publique", "present": false }
+      ],
+      "agenda": [
+        "Avancement du terrassement PK 0 à 14",
+        "Point sur les blocages fonciers (Parcelles 41 à 45)",
+        "Audit de sécurité routière et signalisation de nuit",
+        "Présentation du décompte N° 4 et visas laboratoire"
+      ],
+      "decisions": [
+        {
+          "id": "DEC-PV24-01",
+          "decisionNumber": "DEC-024/01",
+          "subject": "Remplacement de toutes les balises dégradées PK 02 à 05 avant le 12/10/2026 sous peine d'application de pénalité contractuelle",
+          "assignedTo": "SOROUBAT (T. Trabelsi)",
+          "deadline": "2026-10-12",
+          "status": "En_Cours",
+          "linkedActionCode": "TN-R2X2-L01-NO-000045"
+        },
+        {
+          "id": "DEC-PV24-02",
+          "decisionNumber": "DEC-024/02",
+          "subject": "Transmission de la quittance d'indemnisation consignée au Trésor pour la parcelle 042 (Famille Mansour)",
+          "assignedTo": "DGPC (F. Ben Youssef)",
+          "deadline": "2026-10-15",
+          "status": "En_Cours"
+        },
+        {
+          "id": "DEC-PV24-03",
+          "decisionNumber": "DEC-024/03",
+          "subject": "Approbation conditionnelle de la planche d'essai Enrobé Bitumineux (BBSG 0/14) au PK 08+200",
+          "assignedTo": "SCET-Tunisie (K. Ben Salem)",
+          "deadline": "2026-10-09",
+          "status": "Realise"
+        }
+      ],
+      "status": "Valide",
+      "signedPdfFile": "PV_Chantier_N24_Signe_Scet_Soroubat.pdf",
+      "notes": "Feuille de présence émargée annexée. Décision N° 1 assortie d'une note d'observations formelle."
+    },
+    {
+      "id": "MTG-023",
+      "number": "PV-TECH-2026-008",
+      "type": "Technique",
+      "title": "Comité technique Ouvrages d'Art & Dalots hydrauliques",
+      "lotId": "L02",
+      "date": "2026-09-30",
+      "location": "Direction Régionale de l'Équipement - Sidi Bouzid",
+      "attendees": [
+        { "name": "Ing. Kamel Ben Salem", "org": "SCET-Tunisie", "role": "Chef de Mission MOE", "present": true },
+        { "name": "Ing. Nabil Gharbi", "org": "ETEP BTP", "role": "Ingénieur Ouvrages", "present": true },
+        { "name": "Ing. Salma Mezghani", "org": "DGPC", "role": "Ingénieur Suivi", "present": true }
+      ],
+      "agenda": [
+        "Examen des notes de calcul d'armatures pour le Dalot OH 14 (PK 21+400)",
+        "Validation de la portance du sol de fondation (Essai pressiométrique)"
+      ],
+      "decisions": [
+        {
+          "id": "DEC-TEC08-01",
+          "decisionNumber": "DEC-T08/01",
+          "subject": "Substitution de 50 cm de sol compressible sous radier par un enrochement 100/300 avec géotextile filtrant",
+          "assignedTo": "ETEP (N. Gharbi)",
+          "deadline": "2026-10-05",
+          "status": "Realise"
+        }
+      ],
+      "status": "Signe",
+      "signedPdfFile": "PV_Technique_OA_Dalots_Signe.pdf",
+      "notes": "Les plans d'exécution révisés R02 ont été transmis via bordereau TR-0052."
+    }
+  ],
+  "observationNotes": [
+    {
+      "id": "NO-00045",
+      "code": "TN-R2X2-L01-NO-000045",
+      "lotId": "L01",
+      "domain": "Signalisation",
+      "title": "Défauts critiques de signalisation temporaire et balisage de déviation (PK 02 à 05)",
+      "authorName": "Saiefeddine (Expert Sécurité Routière) & SCET-Tunisie",
+      "authorOrg": "Mission de Contrôle SCET-Tunisie",
+      "recipientOrg": "Entreprise SOROUBAT (Direction Travaux)",
+      "dateEmission": "2026-10-08",
+      "deadline": "2026-10-12",
+      "pk": "PK 02+800 à 04+900",
+      "examinedDocCode": "DWG-DEV-012-R02",
+      "examinedRevision": "R02",
+      "status": "Reponse_Recue",
+      "items": [
+        {
+          "itemNumber": "NO-000045/01",
+          "factualFinding": "Panneaux AK5 (Travaux) et B14 (Limitation 50 km/h) encrassés, avec valeur rétro-réfléchissante mesurée RL = 28 mcd/lx/m², inférieure au seuil contractuel de la classe 2 (RL ≥ 150 mcd/lx/m²).",
+          "clauseRef": "CCTP Fascicule 1 Art. 7.3 & Norme XP P98-540",
+          "requestedMeasure": "Nettoyage immédiat et remplacement sous 48h des panneaux non conformes par des films de classe 2 certifiés.",
+          "riskPriority": "Critique",
+          "responseStatus": "Accord_Propose",
+          "contractorResponse": "Commande de 12 panneaux neufs Classe 2 effectuée chez Signaux Tunisie. Livraison et pose programmée le 11/10/2026 à 14h.",
+          "verificationResult": "En_Verification",
+          "proofDocCode": "BL-SIGNAUX-TN-8492"
+        },
+        {
+          "itemNumber": "NO-000045/02",
+          "factualFinding": "Absence totale de balises K8 en tête d'îlot au droit du raccordement avec l'ancienne RN13 au PK 03+400, créant une trajectoire dangereuse vers le fossé.",
+          "clauseRef": "Guide Technique Signalisation Temporaire DGPC 2021",
+          "requestedMeasure": "Pose d'un biseau de balisage K8 rétro-réfléchissant et renforcement par balises d'alignement K5a espacées de 10 mètres.",
+          "riskPriority": "Critique",
+          "responseStatus": "Accord_Propose",
+          "contractorResponse": "Biseau K8 installé le 09/10/2026 à 18h. Rapport photographique transmis à la Mission de Contrôle.",
+          "verificationResult": "Conforme_Cloture",
+          "proofDocCode": "PHOTO-VERIF-K8-PK03"
+        }
+      ],
+      "closureProofFile": "Dossier_Preuves_Levee_NO_000045.pdf"
+    },
+    {
+      "id": "NO-00046",
+      "code": "TN-R2X2-L01-NO-000046",
+      "lotId": "L01",
+      "domain": "Environnement",
+      "title": "Absence d'arrosage régulier de la piste de déviation et plaintes riverains poussière",
+      "authorName": "Ing. Salma Mezghani (Spécialiste E&S)",
+      "authorOrg": "Unité de Gestion MO (DGPC)",
+      "recipientOrg": "Entreprise SOROUBAT",
+      "dateEmission": "2026-10-09",
+      "deadline": "2026-10-13",
+      "pk": "PK 10+200 à 12+500",
+      "examinedDocCode": "RN13-L01-ESI-PGES-0001",
+      "examinedRevision": "P02",
+      "status": "Ouverte",
+      "items": [
+        {
+          "itemNumber": "NO-000046/01",
+          "factualFinding": "Émission dense de poussières au passage des poids lourds près des habitations de l'Imada Bou Thadi. Trois plaintes enregistrées au registre MGP en 48h.",
+          "clauseRef": "PGES-CCTP Section Environnement Art 12.1",
+          "requestedMeasure": "Mise en rotation continue d'une seconde citerne d'arrosage de 15 000L aux heures de pointe (7h-11h et 14h-18h).",
+          "riskPriority": "Majeur",
+          "responseStatus": "En_Attente",
+          "verificationResult": "En_Verification"
+        }
+      ]
+    }
+  ],
+  "correspondence": [
+    {
+      "id": "COR-0142",
+      "direction": "Entrant",
+      "internalNumber": "COR-2026-ENT-0142",
+      "externalRef": "SOR-TUN-LTR-482",
+      "lotId": "L01",
+      "objectTitle": "Transmission du décompte mensuel N° 04 (Septembre 2026) et réclamation d'intérêts moratoires",
+      "senderOrg": "SOROUBAT BTP",
+      "senderPerson": "M. Tarek Trabelsi (Directeur de Travaux)",
+      "recipientOrg": "Mission de Contrôle SCET-Tunisie",
+      "recipientPerson": "M. Kamel Ben Salem (Chef de Mission)",
+      "dateDocument": "2026-10-04",
+      "dateReceivedSent": "2026-10-05",
+      "channel": "Porteur_Decharge",
+      "hasDeadline": true,
+      "deadlineDate": "2026-10-19",
+      "status": "En_Attente_Reponse",
+      "attachments": [
+        { "name": "Decompte_N4_Attachements_Meteo.pdf", "sizeMb": 8.4 },
+        { "name": "Bordereau_Metres_Sept2026.xlsx", "sizeMb": 3.1 }
+      ],
+      "downloadFileName": "Courrier_Entrant_SOROUBAT_482.pdf"
+    },
+    {
+      "id": "COR-0098",
+      "direction": "Sortant",
+      "internalNumber": "COR-2026-SOR-0098",
+      "externalRef": "SCET-MOE-LTR-319",
+      "lotId": "L01",
+      "objectTitle": "Mise en demeure pour non-respect des prescriptions de sécurité routière (Réf. ASR Saiefeddine)",
+      "senderOrg": "SCET-Tunisie",
+      "senderPerson": "M. Kamel Ben Salem (Chef de Mission)",
+      "recipientOrg": "SOROUBAT BTP",
+      "recipientPerson": "M. Tarek Trabelsi",
+      "dateDocument": "2026-10-08",
+      "dateReceivedSent": "2026-10-08",
+      "channel": "Courrier_Recommande",
+      "hasDeadline": true,
+      "deadlineDate": "2026-10-12",
+      "status": "En_Attente_Reponse",
+      "threadParentId": "COR-0142",
+      "attachments": [
+        { "name": "Mise_En_Demeure_Securite_ASR.pdf", "sizeMb": 2.1 },
+        { "name": "Note_Observations_NO_000045.pdf", "sizeMb": 1.4 }
+      ],
+      "downloadFileName": "Mise_En_Demeure_SCET_319.pdf"
+    },
+    {
+      "id": "COR-0143",
+      "direction": "Entrant",
+      "internalNumber": "COR-2026-ENT-0143",
+      "externalRef": "DGPC-DIR-2026-1104",
+      "lotId": "GLOBAL",
+      "objectTitle": "Notification de l'Avenant N° 1 portant prolongation de délai pour cause de libération foncière",
+      "senderOrg": "Ministère de l'Équipement / DGPC",
+      "senderPerson": "M. Lassaad Ben Rejeb (Directeur Général)",
+      "recipientOrg": "Groupement des Entreprises / Mission de Contrôle",
+      "recipientPerson": "À l'attention de tous les acteurs",
+      "dateDocument": "2026-10-01",
+      "dateReceivedSent": "2026-10-02",
+      "channel": "Porteur_Decharge",
+      "hasDeadline": false,
+      "status": "Clos",
+      "attachments": [
+        { "name": "Avenant_N1_Prolongation_Delai_Signe.pdf", "sizeMb": 5.8 }
+      ],
+      "downloadFileName": "Avenant_N1_DGPC_1104.pdf"
+    }
+  ],
+  "monthlyReports": [
+    {
+      "id": "RAP-MENS-09",
+      "code": "RN13-RAP-MENS-2026-M09",
+      "period": "Septembre 2026",
+      "cutoffDate": "2026-09-30",
+      "preparedBy": "SCET-Tunisie (Mission de Contrôle)",
+      "validatedBy": "DGPC (Direction des Ponts et Chaussées)",
+      "status": "Valide_Approuve",
+      "sections": [
+        { "num": 1, "title": "Identification du projet & synthèse exécutive", "summary": "Projet de doublement RN13 PK 0+000 à 42+000 (3 lots). Financement conjoint Banque Mondiale (Prêt 9122-TN) et BEI.", "status": "Valide", "keyKpis": [{ "label": "Longueur totale", "value": "42.0 km" }, { "label": "Lots actifs", "value": "3 lots" }] },
+        { "num": 2, "title": "Avancement physique par lot & activité", "summary": "Lot 1: 34.2% (retard 2.8%), Lot 2: 28.5% (retard 4.1%), Lot 3: 41.0% (conforme).", "status": "Valide", "keyKpis": [{ "label": "Avancement moyen", "value": "34.6%" }, { "label": "Terrassement exécuté", "value": "240 000 m³" }] },
+        { "num": 3, "title": "Situation financière & Décomptes (IPC)", "summary": "Décomptes certifiés cumulés 38.4 MDT sur un budget total de 184 MDT (20.8%). Retenue de garantie 10% appliquée.", "status": "Valide", "keyKpis": [{ "label": "Payé cumulé", "value": "34.56 MDT" }, { "label": "Retenues", "value": "3.84 MDT" }] },
+        { "num": 4, "title": "Planning, chemin critique & écarts", "summary": "Chemin critique bloqué au PK 12+450 (parcelle Mansour) et Dalot OH 14. Avenant de délai de 60 jours en cours d'instruction.", "status": "Valide", "keyKpis": [{ "label": "Glissement estimé", "value": "+45 jours" }] },
+        { "num": 5, "title": "Études, plans, visas et correspondances", "summary": "148 plans visés 'A', 32 plans visés 'B' avec observations, 4 plans rejetés 'D'. 18 bordereaux de transmission émis.", "status": "Valide", "keyKpis": [{ "label": "Taux approbation plans", "value": "89.2%" }] },
+        { "num": 6, "title": "Qualité, laboratoire et points d'arrêt", "summary": "184 essais de compactage Proctor réalisés (98.4% conformes). 2 non-conformités critiques ouvertes sur béton B30.", "status": "Valide", "keyKpis": [{ "label": "Essais conformes", "value": "181/184" }] },
+        { "num": 7, "title": "Sécurité routière & HSE (Expert Saiefeddine)", "summary": "Audit ASR-004 émis. 1 accident matériel, 1 incident hydrocarbure maîtrisé. Taux de fréquence accidents avec arrêt: 0.", "status": "Valide", "keyKpis": [{ "label": "Heures sans accident mortel", "value": "420 000 h" }, { "label": "Audits ASR", "value": "2 clôturés" }] },
+        { "num": 8, "title": "Environnement et social (PGES & MGP)", "summary": "5 plaintes citoyennes enregistrées au guichet MGP, 4 résolues sous SLA 15 jours. 1 cas sensible VBG pris en charge.", "status": "Valide", "keyKpis": [{ "label": "Taux résolution plaintes", "value": "80%" }] },
+        { "num": 9, "title": "Foncier & libération des emprises (PAR)", "summary": "118 ménages recensés sur 134 indemnisés (88.1%). 13 400 oliviers indemnisés sur 14 000. Emprise disponible à 85%.", "status": "Valide", "keyKpis": [{ "label": "Emprise libérée", "value": "85.0%" }, { "label": "Montant PAR payé", "value": "4.82 MDT" }] },
+        { "num": 10, "title": "Décisions attendues et matrice des risques", "summary": "Attente signature arrêté d'expropriation d'urgence pour la parcelle 042 et visa non-objection Banque Mondiale pour le lot 3.", "status": "Valide", "keyKpis": [{ "label": "Risques majeurs", "value": "2 identifiés" }] },
+        { "num": 11, "title": "Cartographie OSM & Reportage photographique", "summary": "Couverture photographique géolocalisée complète du linéaire RN13 PK 0 à 42 avec rattachement aux fiches d'incidents.", "status": "Valide", "keyKpis": [{ "label": "Photos géotaggées", "value": "342 clichés" }] },
+        { "num": 12, "title": "Annexes, bordereaux et registre des sources", "summary": "Registre probant des visas, fiches de contrôle CETEC, PV de chantier signés et accusés de réception officiels.", "status": "Valide", "keyKpis": [{ "label": "Annexes archivées", "value": "24 pièces" }] }
+      ]
+    }
+  ]
+}

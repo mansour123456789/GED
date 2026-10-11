@@ -1,0 +1,15 @@
+services:
+  ged-rn13-v2:
+    build: .
+    container_name: ged-rn13-v2
+    ports: ["3000:80"]
+    volumes:
+      - ./config/config.js:/usr/share/nginx/html/config.js:ro
+    restart: unless-stopped
+  ged-rn13-v2-dev:
+    profiles: ["dev"]
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0 --port 5173"
+    ports: ["5173:5173"]
+    volumes: [".:/app", "/app/node_modules"]

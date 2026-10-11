@@ -1,0 +1,58 @@
+[
+  {
+    "id": "off-001",
+    "householdId": "hh-001",
+    "householdCode": "HH-L01-0042",
+    "lotId": "L01",
+    "pk": "12+450",
+    "amountLandTnd": 15000,
+    "amountBatiTnd": 16500,
+    "amountCropsTnd": 4000,
+    "vulnerabilityAllowanceTnd": 3000,
+    "totalTnd": 38500,
+    "status": "Acceptee",
+    "paidTnd": 19250
+  },
+  {
+    "id": "off-002",
+    "householdId": "hh-002",
+    "householdCode": "HH-L01-0043",
+    "lotId": "L01",
+    "pk": "12+620",
+    "amountLandTnd": 18000,
+    "amountBatiTnd": 0,
+    "amountCropsTnd": 6200,
+    "vulnerabilityAllowanceTnd": 0,
+    "totalTnd": 24200,
+    "status": "Proposee",
+    "paidTnd": 0
+  },
+  {
+    "id": "off-003",
+    "householdId": "hh-003",
+    "householdCode": "HH-L01-0018",
+    "lotId": "L01",
+    "pk": "4+800",
+    "amountLandTnd": 32000,
+    "amountBatiTnd": 14000,
+    "amountCropsTnd": 8000,
+    "vulnerabilityAllowanceTnd": 0,
+    "totalTnd": 54000,
+    "status": "Soldee",
+    "paidTnd": 54000
+  },
+  {
+    "id": "off-004",
+    "householdId": "hh-004",
+    "householdCode": "HH-L01-0005",
+    "lotId": "L01",
+    "pk": "1+950",
+    "amountLandTnd": 11000,
+    "amountBatiTnd": 4800,
+    "amountCropsTnd": 2000,
+    "vulnerabilityAllowanceTnd": 2000,
+    "totalTnd": 19800,
+    "status": "Soldee",
+    "paidTnd": 19800
+  }
+]

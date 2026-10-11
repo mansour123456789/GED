@@ -1,0 +1,56 @@
+[
+  {
+    "id": "gate-001",
+    "lotId": "L01",
+    "sectionTitle": "Tronçon 1 (PK 0+000 à 3+500) — Entrée Sbeïtla",
+    "pkRange": "0+000 → 3+500",
+    "parFree": true,
+    "pgeseApproved": true,
+    "pgtApproved": true,
+    "ppspsApproved": true,
+    "paqApproved": true,
+    "huissierDone": true,
+    "canStart": true
+  },
+  {
+    "id": "gate-002",
+    "lotId": "L01",
+    "sectionTitle": "Tronçon 2 (PK 3+500 à 7+200) — Zone Franchissement Oued",
+    "pkRange": "3+500 → 7+200",
+    "parFree": true,
+    "pgeseApproved": true,
+    "pgtApproved": true,
+    "ppspsApproved": true,
+    "paqApproved": true,
+    "huissierDone": true,
+    "canStart": true
+  },
+  {
+    "id": "gate-003",
+    "lotId": "L01",
+    "sectionTitle": "Tronçon 3 (PK 7+200 à 11+000) — Plaine Agricole Sbeïtla Est",
+    "pkRange": "7+200 → 11+000",
+    "parFree": true,
+    "pgeseApproved": true,
+    "pgtApproved": false,
+    "ppspsApproved": true,
+    "paqApproved": true,
+    "huissierDone": true,
+    "canStart": false,
+    "blockReason": "Plan de signalisation temporaire et déviation agricole (PGT) en cours de visa par la maîtrise d'œuvre."
+  },
+  {
+    "id": "gate-004",
+    "lotId": "L01",
+    "sectionTitle": "Tronçon 4 (PK 11+000 à 14+000) — Secteur Douar El Khir / École",
+    "pkRange": "11+000 → 14+000",
+    "parFree": false,
+    "pgeseApproved": true,
+    "pgtApproved": true,
+    "ppspsApproved": true,
+    "paqApproved": true,
+    "huissierDone": false,
+    "canStart": false,
+    "blockReason": "Démarrage impossible : l'emprise du tronçon PK 11+000 → 12+500 n'est pas libérée (2 ménages PAP en cours de paiement d'indemnité foncière)."
+  }
+]

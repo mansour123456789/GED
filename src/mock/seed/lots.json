@@ -1,0 +1,113 @@
+[
+  {
+    "id": "L01",
+    "code": "RN13-L01",
+    "name": "Lot 01 — PK 0+000 à 14+000 (Section Sbeïtla Ouest)",
+    "pkStart": "0+000",
+    "pkEnd": "14+000",
+    "linearKm": 14,
+    "governorate": "Kasserine",
+    "phase": "Exécution",
+    "progressPhysicalPct": 68,
+    "progressFinancialPct": 62,
+    "budgetTnd": 182500000,
+    "contractStartDate": "2024-03-01",
+    "contractEndDate": "2027-02-28",
+    "revisedEndDate": "2027-08-31",
+    "description": "Dédoublement 2x2 voies en site semi-urbain et agricole avec 14 dalots hydrauliques et traversée des vergers d'oliviers.",
+    "contractorName": "Soroubat & Bouzid Travaux",
+    "supervisorName": "Groupement SCET Tunisie / Contrôle RN13",
+    "contractorInfo": {
+      "name": "Groupement Soroubat & Bouzid Travaux",
+      "director": "Mourad Bouzid",
+      "contact": "+216 71 850 400"
+    },
+    "supervisorInfo": {
+      "name": "Groupement SCET Tunisie / Contrôle RN13",
+      "missionChief": "Walid Jaziri",
+      "contact": "+216 71 780 200"
+    },
+    "citizenStats": {
+      "householdsCount": 48,
+      "indemnifiedCount": 45,
+      "oliveTreesCount": 14200,
+      "oliveTreesIndemnified": 13850,
+      "openGrievances": 2,
+      "resolvedGrievances": 16
+    }
+  },
+  {
+    "id": "L02",
+    "code": "RN13-L02",
+    "name": "Lot 02 — PK 14+000 à 28+000 (Section Rohia Centre)",
+    "pkStart": "14+000",
+    "pkEnd": "28+000",
+    "linearKm": 14,
+    "governorate": "Sidi Bouzid",
+    "phase": "Passation",
+    "progressPhysicalPct": 12,
+    "progressFinancialPct": 10,
+    "budgetTnd": 195000000,
+    "contractStartDate": "2025-01-15",
+    "contractEndDate": "2028-01-14",
+    "revisedEndDate": "2028-06-30",
+    "description": "Section médiane traversant les plaines céréalières et oliveraies intensives de Rohia, avec pont majeur sur l'Oued Fekka.",
+    "contractorName": "En cours d'attribution (AO International BIRD)",
+    "supervisorName": "Groupement SCET Tunisie",
+    "contractorInfo": {
+      "name": "Attribution en cours (6 soumissionnaires internationaux)",
+      "director": "Commission Spéciale des Marchés DGPC",
+      "contact": "+216 71 800 122"
+    },
+    "supervisorInfo": {
+      "name": "Groupement SCET Tunisie",
+      "missionChief": "Walid Jaziri",
+      "contact": "+216 71 780 200"
+    },
+    "citizenStats": {
+      "householdsCount": 36,
+      "indemnifiedCount": 28,
+      "oliveTreesCount": 9800,
+      "oliveTreesIndemnified": 8200,
+      "openGrievances": 4,
+      "resolvedGrievances": 9
+    }
+  },
+  {
+    "id": "L03",
+    "code": "RN13-L03",
+    "name": "Lot 03 — PK 28+000 à 42+000 (Section Kasserine Est)",
+    "pkStart": "28+000",
+    "pkEnd": "42+000",
+    "linearKm": 14,
+    "governorate": "Sfax",
+    "phase": "Conception",
+    "progressPhysicalPct": 0,
+    "progressFinancialPct": 0,
+    "budgetTnd": 210000000,
+    "contractStartDate": "2025-06-01",
+    "contractEndDate": "2028-12-31",
+    "revisedEndDate": "2029-06-30",
+    "description": "Raccordement autoroutier à la rocade de Sfax (Pénétrante Sud) avec échangeurs dénivelés et zone d'expropriation périurbaine.",
+    "contractorName": "Non attribué (Phase DAO & Conception)",
+    "supervisorName": "AMO Infrastructure & UGP RN13",
+    "contractorInfo": {
+      "name": "Phase Études d'Exécution & DAO",
+      "director": "DGPC Direction des Études",
+      "contact": "+216 71 800 122"
+    },
+    "supervisorInfo": {
+      "name": "AMO Infrastructure & UGP RN13",
+      "missionChief": "Rim Cherif (Directrice AMO)",
+      "contact": "+216 71 750 330"
+    },
+    "citizenStats": {
+      "householdsCount": 62,
+      "indemnifiedCount": 18,
+      "oliveTreesCount": 11500,
+      "oliveTreesIndemnified": 4200,
+      "openGrievances": 7,
+      "resolvedGrievances": 5
+    }
+  }
+]

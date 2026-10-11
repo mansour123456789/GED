@@ -1,0 +1,231 @@
+{
+  "audits": [
+    {
+      "id": "ASR-001",
+      "code": "ASR-RN13-2026-001",
+      "lotId": "L01",
+      "phase": "Travaux",
+      "title": "Audit de Sécurité Routière - Chantier en activité & Franchissements riverains Lot 1",
+      "auditorName": "Saiefeddine (Expert Sécurité Routière)",
+      "dateAudit": "2026-09-28",
+      "pkStart": "0+000",
+      "pkEnd": "14+000",
+      "riskLevel": "Eleve",
+      "findingsCount": 7,
+      "criticalDefects": [
+        "Vitesse réelle des usagers supérieure à 70 km/h en zone de basculement PK 12+450",
+        "Absence de dispositifs atténuateurs de choc en amont des îlots séparateurs",
+        "Poussière réduisant la distance de visibilité d'arrêt à moins de 60m"
+      ],
+      "recommendations": [
+        "Installer des balises d'alignement K5a rétro-réfléchissantes Classe 2 (RL >= 150) tous les 10m",
+        "Mettre en place des ralentisseurs de type bandes rugueuses avant le rétrécissement",
+        "Imposer un arrosage 4 fois par jour sur les pistes de déviation",
+        "Pose de glissières de sécurité GS4 le long des talus de remblai > 3m"
+      ],
+      "status": "Mesures_En_Cours",
+      "linkedDocumentCode": "TN-R2X2-L01-HSE-ASR-001",
+      "attachmentName": "Rapport_ASR_Travaux_L01_Saiefeddine.pdf"
+    },
+    {
+      "id": "ASR-002",
+      "code": "ASR-RN13-2026-002",
+      "lotId": "L02",
+      "phase": "Travaux",
+      "title": "Audit de Sécurité Routière - Déviation franchissement Oued Amor Lot 2",
+      "auditorName": "Saiefeddine (Expert Sécurité Routière)",
+      "dateAudit": "2026-10-02",
+      "pkStart": "21+500",
+      "pkEnd": "24+000",
+      "riskLevel": "Moyen",
+      "findingsCount": 4,
+      "criticalDefects": [
+        "Signalisation de nuit insuffisante à l'approche de la déviation temporaire",
+        "Présence d'un dépôt de déblais non balisé en bordure de bande d'arrêt d'urgence"
+      ],
+      "recommendations": [
+        "Installation d'un éclairage autonome solaire sur le carrefour dévié",
+        "Balisage continu par séparateurs béton GBA avec réflecteurs trapézoïdaux",
+        "Dégagement immédiat des remblais situés dans la zone de sécurité (3m)"
+      ],
+      "status": "Plan_Action_Valide",
+      "linkedDocumentCode": "TN-R2X2-L02-HSE-ASR-002",
+      "attachmentName": "Audit_Securite_Oued_Amor_L02.pdf"
+    },
+    {
+      "id": "ASR-003",
+      "code": "ASR-RN13-2026-003",
+      "lotId": "L01",
+      "phase": "Conception",
+      "title": "Audit ASR Phase Conception - Géométrie des échangeurs et carrefours giratoires",
+      "auditorName": "Bureau International Sécurité Routière & Saiefeddine",
+      "dateAudit": "2025-11-14",
+      "pkStart": "0+000",
+      "pkEnd": "42+000",
+      "riskLevel": "Faible",
+      "findingsCount": 3,
+      "criticalDefects": [
+        "Angle de raccordement des bretelles d'accès secondaire trop aigu au PK 6+200"
+      ],
+      "recommendations": [
+        "Augmenter le rayon de courbure à R = 250m pour les bretelles d'insertion",
+        "Aménager un îlot séparateur physique pour canaliser le trafic agricole"
+      ],
+      "status": "Cloture_Conforme",
+      "linkedDocumentCode": "TN-R2X2-GLO-CON-ASR-000",
+      "attachmentName": "Audit_Conception_RN13_Geometrie.pdf"
+    },
+    {
+      "id": "ASR-004",
+      "code": "ASR-RN13-2026-004",
+      "lotId": "L01",
+      "phase": "PreMiseEnService",
+      "title": "Audit Pré-mise en service - Tronçon achevé PK 0+000 à 8+000",
+      "auditorName": "Saiefeddine (Expert Sécurité Routière)",
+      "dateAudit": "2026-10-09",
+      "pkStart": "0+000",
+      "pkEnd": "8+000",
+      "riskLevel": "Moyen",
+      "findingsCount": 5,
+      "criticalDefects": [
+        "Extrémités de glissières GS2 non enterrées ni munies d'embouts ralentisseurs agréés",
+        "Signalisation directionnelle manquante au niveau de la sortie Bir Ali Ben Khelifa"
+      ],
+      "recommendations": [
+        "Poser des têtes d'ancrage télescopiques conformes à la norme EN 1317",
+        "Appliquer le marquage blanc rétroréfléchissant Classe 2 avant toute ouverture à la circulation"
+      ],
+      "status": "Rapport_Emis",
+      "linkedDocumentCode": "TN-R2X2-L01-REC-ASR-004",
+      "attachmentName": "Audit_Pre_Mise_En_Service_L01.pdf"
+    }
+  ],
+  "diversions": [
+    {
+      "id": "DEV-001",
+      "code": "DEV-RN13-L01-012",
+      "lotId": "L01",
+      "title": "Déviation giratoire provisoire PK 12+450 à 13+800",
+      "pkStart": "12+450",
+      "pkEnd": "13+800",
+      "direction": "Kasserine -> Sfax",
+      "speedLimitKmh": 50,
+      "startDate": "2026-09-15",
+      "endDatePlan": "2026-11-30",
+      "status": "En_Service",
+      "retroreflectivityClass": "Classe 2 (RL >= 150)",
+      "balisageType": "Balises K5a + Panneaux K8 + Séparateurs GBA béton armé",
+      "containmentDevices": "GS4",
+      "nightLightingConfirmed": true,
+      "policeAuthorizationRef": "Autorisation Garde Nationale Sfax N° 84/2026 du 10/09/2026",
+      "planDrawingCode": "DWG-DEV-012-R02",
+      "fileName": "Plan_Circulation_Temporaire_PK12_Signe.pdf"
+    },
+    {
+      "id": "DEV-002",
+      "code": "DEV-RN13-L02-005",
+      "lotId": "L02",
+      "title": "Basculement de chaussée - Ouvrage d'art Oued Amor PK 22+100 à 23+400",
+      "pkStart": "22+100",
+      "pkEnd": "23+400",
+      "direction": "Bidirectionnel Dévié",
+      "speedLimitKmh": 50,
+      "startDate": "2026-10-01",
+      "endDatePlan": "2026-12-15",
+      "status": "En_Service",
+      "retroreflectivityClass": "Classe 2 (RL >= 150)",
+      "balisageType": "Séparateurs mobiles métalliques SMV + Cône K2 + Feux tricolores temporaires",
+      "containmentDevices": "GBA Béton",
+      "nightLightingConfirmed": true,
+      "policeAuthorizationRef": "Arrêté Régional Sidi Bouzid N° 112/2026",
+      "planDrawingCode": "DWG-DEV-OUED-AMOR-R01",
+      "fileName": "Basculement_Chaussee_Oued_Amor.pdf"
+    },
+    {
+      "id": "DEV-003",
+      "code": "DEV-RN13-L03-008",
+      "lotId": "L03",
+      "title": "Déviation raccordement Sbeitla - Contournement urbain PK 38+000 à 41+200",
+      "pkStart": "38+000",
+      "pkEnd": "41+200",
+      "direction": "Sfax -> Kasserine",
+      "speedLimitKmh": 70,
+      "startDate": "2026-11-01",
+      "endDatePlan": "2027-02-28",
+      "status": "Soumis_MOE",
+      "retroreflectivityClass": "Classe 2 (RL >= 150)",
+      "balisageType": "Balises d'alignement K5c + Panneaux temporaires AK4",
+      "containmentDevices": "GS2",
+      "nightLightingConfirmed": false,
+      "policeAuthorizationRef": "En attente accord District Garde Nationale Kasserine",
+      "planDrawingCode": "DWG-DEV-L03-SBEITLA-R01",
+      "fileName": "Dossier_Technique_Deviation_Sbeitla.pdf"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "INSP-001",
+      "lotId": "L01",
+      "date": "2026-10-10",
+      "inspectorName": "Saiefeddine (Expert Sécurité Routière)",
+      "period": "Visite Diurne (Jour)",
+      "pk": "12+800",
+      "gpsCoords": "34.7405° N, 10.7602° E",
+      "weather": "Vent de sable",
+      "findingCategory": "Signalisation Dégradée",
+      "urgency": "Immédiate (< 24h)",
+      "description": "5 balises K5a tombées au sol à cause des rafales de sirocco. Les usagers coupent la trajectoire balisée.",
+      "correctiveAction": "Lestage immédiat des socles avec sacs de sable et remise en place sous 2 heures par l'équipe astreinte SOROUBAT.",
+      "status": "Rectifié_Terrain",
+      "photoName": "photo_balises_k5a_pk12.jpg"
+    },
+    {
+      "id": "INSP-002",
+      "lotId": "L01",
+      "date": "2026-10-09",
+      "inspectorName": "Saiefeddine (Expert Sécurité Routière)",
+      "period": "Visite Nocturne (Nuit)",
+      "pk": "13+200",
+      "gpsCoords": "34.7420° N, 10.7550° E",
+      "weather": "Clair",
+      "findingCategory": "Balisage Incomplet",
+      "urgency": "Urgent (48h)",
+      "description": "Mesure rétroréfléchissante au rétro-réflectomètre portatif donnant RL = 95 mcd/lx/m², inférieur au seuil contractuel de 150 mcd/lx/m².",
+      "correctiveAction": "Nettoyage des microbilles de verre et réapplication d'une passe de peinture certifiée Classe 2.",
+      "status": "Ordre_Donné",
+      "photoName": "mesure_retroreflectometre.jpg"
+    },
+    {
+      "id": "INSP-003",
+      "lotId": "L02",
+      "date": "2026-10-08",
+      "inspectorName": "Ing. Nizar (Contrôleur Sécurité SCET)",
+      "period": "Visite Diurne (Jour)",
+      "pk": "22+600",
+      "gpsCoords": "35.0310° N, 9.4890° E",
+      "weather": "Clair",
+      "findingCategory": "Glissière Déformée",
+      "urgency": "Immédiate (< 24h)",
+      "description": "Section de 8m de glissière métallique GS4 percutée par un dumper de chantier lors des manœuvres de remblai.",
+      "correctiveAction": "Remplacement du tronçon métallique déformé et alignement des poteaux C100 avec serrage au couple réglementaire.",
+      "status": "Vérifié",
+      "photoName": "glissiere_gs4_remplacee.jpg"
+    },
+    {
+      "id": "INSP-004",
+      "lotId": "L01",
+      "date": "2026-10-07",
+      "inspectorName": "Saiefeddine (Expert Sécurité Routière)",
+      "period": "Visite Diurne (Jour)",
+      "pk": "05+400",
+      "gpsCoords": "34.7890° N, 10.6540° E",
+      "weather": "Clair",
+      "findingCategory": "Conflit Usagers-Engins",
+      "urgency": "Urgent (48h)",
+      "description": "Traversée d'engins de terrassement à niveau avec la circulation générale sans homme-trafic posté.",
+      "correctiveAction": "Affectation permanente de 2 signaleurs équipés de gilets rétro Classe 3 et panneaux K2 mobiles.",
+      "status": "Rectifié_Terrain",
+      "photoName": "homme_trafic_affecte.jpg"
+    }
+  ]
+}
